@@ -97,26 +97,26 @@ require_once('bd/sle.php');
 
             <div class="col-md-3" align="center">
                 <div style="font-size: 25pt">Consultas</div>
-                <div style="font-size: 50pt; background-color: #000000;color: #ffffff;"><b>12.230</b></div>
+                <div style="font-size: 50pt; background-color: #000000;color: #ffffff;"><b>0</b></div>
                 <div style="font-size: 20pt">Realizadas</div>
 
             </div>
 
             <div class="col-md-3" align="center">
                 <div style="font-size: 25pt">Proyectos</div>
-                <div style="font-size: 50pt; background-color: #000000;color: #ffffff;"><b>16</b></div>
+                <div style="font-size: 50pt; background-color: #000000;color: #ffffff;"><b>0</b></div>
                 <div style="font-size: 20pt">Inscritos</div>
             </div>
 
             <div class="col-md-3" align="center">
                 <div style="font-size: 25pt">Preinscripciones</div>
-                <div style="font-size: 50pt; background-color: #000000;color: #ffffff;"><b>13.000</b></div>
+                <div style="font-size: 50pt; background-color: #000000;color: #ffffff;"><b>0</b></div>
                 <div style="font-size: 20pt">Cedulas</div>
             </div>
 
             <div class="col-md-3" align="center">
                 <div style="font-size: 25pt">Votos</div>
-                <div style="font-size: 50pt; background-color: #000000;color: #ffffff;"><b>11.300</b></div>
+                <div style="font-size: 50pt; background-color: #000000;color: #ffffff;"><b>0</b></div>
                 <div style="font-size: 20pt">Recibidos</div>
             </div>
         </div>

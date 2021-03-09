@@ -113,8 +113,19 @@ require_once('bd/sle.php');
             </div>
         </div>
 
+        <hr><br><br><br>
 
-        <hr><br>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-xs-12" align="center">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/jv644HA9hx4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-xs-12" align="center">
+                <img src="images/participacion.png" width="90%">
+            </div>
+        </div>
+
+        <br><br><br><hr>
 
         <div class="row">            
             <div class="col-lg-12 col-md-12 col-xs-12" align="center">
