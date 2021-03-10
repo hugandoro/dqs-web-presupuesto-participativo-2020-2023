@@ -39,8 +39,8 @@ require_once('bd/sle.php');
 
     <div class="container">
 
-   	<!-- Barra de navegacion superior -->
-       <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+        <!-- Barra de navegacion superior -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
             <a class="navbar-brand" href="index.php"><img src="images/logo_miniatura_administracion.png" width="25" height="25" alt=""></a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
@@ -116,8 +116,100 @@ require_once('bd/sle.php');
         <hr><br><br><br>
 
         <div class="row">
+            <div class="col-lg-5 col-md-5 col-xs-12">
+                <h2>Que es un plan zonal, plan de desarrollo estrategico comunal corregimental y/o plan local ?</h2><br>
+                Es un documento que contiene el diagnóstico de una zona identificada (barrio, Comuna, vereda o corregimiento) del municipio, que presenta y prioriza las potencialidades y necesidades más relevantes de ese territorio; con objetivos, con metas e indicadores; Determina unas estrategias generales definidas en proyectos y un plan de inversiones (locales, comunales, veredales o corregimentales).<br><br>
+                Pero lo más importante que estos documentos son construidos de manera participativa entre la administración y las diferentes comunidades de dicha unidad territorial.<br><br>
+                Dosquebradas, ha construidos varios documentos de este tipo con los líderes, y comunidades en la fase de diagnósticos y definición de propuestas ciudadanas definiendo los problemas comunitarios en los diferentes sectores sociales, económicos, ambientales y culturales.<br><br>
+                <center><img src="images/logo_miniatura_administracion.png" width="120px"></center>
+            </div>
+
+            <div class="col-lg-7 col-md-7 col-xs-12" align="center">
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">Comuna</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Año</th>
+                            <th scope="col">Tipo</th>
+                            <th scope="col">PDF</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Circunvalar</td>
+                            <td>2017</td>
+                            <td>Estratégico Comunal</td>
+                            <td><a href="https://www.dosquebradas.gov.co/web/index.php/about/planes-estrategicos-sectoriales-e-institucionales/send/421-ano-2017/3454-plan-de-desarrollo-estrategico-comunal-y-comunitario-comuna-2-2017"><img src="images/icono-pdf.png" width="25px"></a></td>
+                        </tr>
+                        <tr>
+                        <th scope="row">2</th>
+                            <td>socialización documento Comuna 2</td>
+                            <td>2017</td>
+                            <td>Anexo de socialización- registro fotográfico </td>
+                            <td><a href="https://www.dosquebradas.gov.co/web/index.php/about/planes-estrategicos-sectoriales-e-institucionales/send/421-ano-2017/3453-anexo-socializacion-del-documento-terminado-con-la-comunidad"><img src="images/icono-pdf.png" width="25px"></a></td>
+                        </tr>
+                        <tr>
+                        <th scope="row">3</th>
+                            <td>Plan de Desarrollo Comuna 3</td>
+                            <td>2015</td>
+                            <td>Plan de Desarrollo Comuna 3</td>
+                            <td><a href="https://www.dosquebradas.gov.co/web/index.php/about/planes-estrategicos-sectoriales-e-institucionales/send/422-ano-2015/3455-plan-de-desarrollo-comuna-3-vigencia-2015-2025"><img src="images/icono-pdf.png" width="25px"></a></td>
+                        </tr>
+                        <th scope="row">4</th>
+                            <td>Santa Isabel </td>
+                            <td>2019</td>
+                            <td>Estratégico Comunal y Comunitario</td>
+                            <td><a href="https://www.dosquebradas.gov.co/web/index.php/about/planes-estrategicos-sectoriales-e-institucionales/send/423-ano-2019/3456-plan-de-desarrollo-estrategico-comunal-y-comunitario-comuna-4"><img src="images/icono-pdf.png" width="25px"></a></td>
+                        </tr>
+                        <th scope="row">6</th>
+                            <td>Plan de desarrollo zonal Comuna 6</td>
+                            <td>2016</td>
+                            <td>Zonal</td>
+                            <td><a href="https://www.dosquebradas.gov.co/web/index.php/about/planes-estrategicos-sectoriales-e-institucionales/send/424-ano-2016/3458-plan-de-desarrollo-zonal-comuna-6-2016-2026"><img src="images/icono-pdf.png" width="25px"></a></td>
+                        </tr>
+                        <th scope="row">8</th>
+                            <td>Nuestra Señora de Chiquinquirá</td>
+                            <td>2017</td>
+                            <td>Estratégico Comunal</td>
+                            <td><a href="https://www.dosquebradas.gov.co/web/index.php/about/planes-estrategicos-sectoriales-e-institucionales/send/421-ano-2017/3459-plan-de-desarrollo-estrategico-comunal-y-comunitario-comuna-8"><img src="images/icono-pdf.png" width="25px"></a></td>
+                        </tr>
+                        <th scope="row">9</th>
+                            <td>Manuel Elkin Patarroyo</td>
+                            <td>2018</td>
+                            <td>Estratégico Comunal</td>
+                            <td><a href="https://www.dosquebradas.gov.co/web/index.php/about/planes-estrategicos-sectoriales-e-institucionales/send/423-ano-2019/3460-plan-de-desarrollo-estrategico-comunal-y-comunitario-comuna-9-2018"><img src="images/icono-pdf.png" width="25px"></a></td>
+                        </tr>
+                        <th scope="row">10</th>
+                            <td>Estación Gutiérrez</td>
+                            <td>2018</td>
+                            <td>Estratégico Comunal</td>
+                            <td><a href="https://www.dosquebradas.gov.co/web/index.php/about/planes-estrategicos-sectoriales-e-institucionales/send/425-ano-2018/3462-plan-de-desarrollo-estrategico-comunal-y-comunitario-comuna-10"><img src="images/icono-pdf.png" width="25px"></a></td>
+                        </tr>
+                        <th scope="row">11</th>
+                            <td>Los Fundadores</td>
+                            <td>2016</td>
+                            <td>Zonal</td>
+                            <td><a href="https://www.dosquebradas.gov.co/web/index.php/about/planes-estrategicos-sectoriales-e-institucionales/send/424-ano-2016/3463-plan-de-desarrollo-zonal-comuna-11"><img src="images/icono-pdf.png" width="25px"></a></td>
+                        </tr>
+                        <th scope="row">Alto del Nudo</th>
+                            <td>Serranía Alto del Nudo</td>
+                            <td>2018</td>
+                            <td>Corregimental</td>
+                            <td><a href="https://www.dosquebradas.gov.co/web/index.php/about/planes-estrategicos-sectoriales-e-institucionales/send/425-ano-2018/3464-plan-de-desarrollo-estrategico-comunal-y-comunitario"><img src="images/icono-pdf.png" width="25px"></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <br><br><br>
+        <hr>
+
+        <div class="row">
             <div class="col-lg-6 col-md-6 col-xs-12" align="center">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/jv644HA9hx4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/jv644HA9hx4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
             <div class="col-lg-6 col-md-6 col-xs-12" align="center">
@@ -125,9 +217,10 @@ require_once('bd/sle.php');
             </div>
         </div>
 
-        <br><br><br><hr>
+        <br><br><br>
+        <hr>
 
-        <div class="row">            
+        <div class="row">
             <div class="col-lg-12 col-md-12 col-xs-12" align="center">
                 <div><img src="images/infografia1.jpg" width="100%"></div>Fuente - https://www.funcionpublica.gov.co/eva/es/abc
             </div>
@@ -140,7 +233,8 @@ require_once('bd/sle.php');
                 <div class="col-12 col-md">
                     <center><img class="mb-2" src="images/logo_miniatura_administracion.png" alt="" width="100" height="100">
                         <small class="d-block mb-3 text-muted">Secretaria Municipal de Planeación</small>
-                        <small class="d-block mb-3 text-muted">&copy; 2020-2023</small></center>
+                        <small class="d-block mb-3 text-muted">&copy; 2020-2023</small>
+                    </center>
                 </div>
                 <div class="col-6 col-md">
                     <h5>Referentes de consulta Institucional</h5>
@@ -174,14 +268,14 @@ require_once('bd/sle.php');
     if (isset($_GET['id'])) $aux = $_GET['id'];
 
     $sql = "SELECT * FROM visitas WHERE direccion_ip = '$IDUSER' AND fecha=CURDATE() AND aporte=$aux";
-    $result = mysqli_query($sle,$sql);
+    $result = mysqli_query($sle, $sql);
     if (mysqli_num_rows($result) == 0) {
         $sql = "INSERT INTO visitas VALUES(NULL,'$IDUSER',CURDATE(),'999999')";
-        mysqli_query($sle,$sql);
+        mysqli_query($sle, $sql);
     }
 
     $sql = "UPDATE contador SET portada = portada + 1 WHERE id = 1";
-    mysqli_query($sle,$sql) or die(mysql_error());
+    mysqli_query($sle, $sql) or die(mysql_error());
     ?>
 
 </body>

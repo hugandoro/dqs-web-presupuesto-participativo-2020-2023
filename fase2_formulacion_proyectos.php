@@ -98,13 +98,13 @@ require_once('bd/sle.php');
 
         <div class="row">
             <div class="col-md-6" align="center">
-                <div style="font-size: 15pt">Formato unico proyecto<br><br></div>
-                <div><a href="repositorio/formato_unico_proyecto_idea_v1.docx"><img src="images/icono-word.png" width="50%"></a></div>
+                <div style="font-size: 15pt">Formato unico proyecto (En actualizacion...)<br><br></div>
+                <div><a href="repositorio/"><img src="images/icono-word.png" width="50%"></a></div>
             </div>
 
             <div class="col-md-6" align="center">
-                <div style="font-size: 15pt">Restricciones de viabilidad<br><br></div>
-                <div><a href="repositorio/restricciones_viabilidad_proyecto_idea.docx"><img src="images/icono-word.png" width="50%"></a></div>
+                <div style="font-size: 15pt">Restricciones de viabilidad (En actualizacion...)<br><br></div>
+                <div><a href="repositorio/"><img src="images/icono-word.png" width="50%"></a></div>
             </div>
 
         </div>
