@@ -68,6 +68,9 @@ require_once('bd/sle.php');
                     <li class="nav-item">
                         <a class="nav-link" href="fase5_resultados.php">5 | Resultados</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="prensa.php">Prensa y medios</a>
+                    </li>
 
                 </ul>
             </div>

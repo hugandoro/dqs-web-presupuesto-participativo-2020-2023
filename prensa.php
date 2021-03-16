@@ -81,15 +81,34 @@ require_once('bd/sle.php');
         <div class="row">
             <div class="col-lg-12 col-md-12 col-xs-12" align="center">
                 <div style="font-size: 36pt"><b>Presupuesto Participativo | Dosquebradas</b></div>
-                <div style="font-size: 18pt"><b>Fase 3 preinscripción</b></div>
+                <div style="font-size: 18pt"><b>Prensa y medios</b></div>
             </div>
         </div>
 
-        <hr>
+        <hr><br>
 
         <div class="row">
             <div class="col-md-12" align="center">
-                <div style="font-size: 24pt"><br><br><br>No habilitada | Atento a cronograma...<br><br><br></div>
+                <div style="font-size: 24pt">Boletines de prensa</div>
+            </div>
+            <div class="col-md-12" align="center">
+                <div style="font-size: 16pt"><a href="https://www.dosquebradas.gov.co/web/index.php/215-secretarias/planeacion/noticias/2020/4226-dosquebradas-dio-inicio-al-proceso-de-socializacion-de-presupuesto-participativo-2021">Dosquebradas dio inicio al Proceso de socialización de presupuesto participativo 2021</a></div>
+            </div>
+        </div>
+
+        <hr><br>
+
+        <div class="row">
+            <div class="col-md-12" align="center">
+                <div style="font-size: 24pt">Multimedia</div>
+            </div>
+        </div>
+
+        <hr><br>
+
+        <div class="row">
+            <div class="col-md-12" align="center">
+                <div style="font-size: 24pt">Redes sociales</div>
             </div>
         </div>
 
