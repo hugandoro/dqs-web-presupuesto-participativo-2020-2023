@@ -116,18 +116,175 @@ require_once('bd/sle.php');
             </div>
         </div>
 
-        <hr><br><br><br>
+        <hr><br>
 
         <div class="row">
-            <div class="col-lg-5 col-md-5 col-xs-12">
+            <div class="col-md-3" align="center">
+            </div>
+
+            <div class="col-md-3" align="center">
+                <div style="font-size: 15pt">Plan de capacitaciones 2021<br><br></div>
+                <div><a href="repositorio/pp_plan_capacitaciones_2021.pdf"><img src="images/icono-pdf.png" width="50%"></a></div>
+                <div style="font-size: 12pt">Juntas administradoras locales | Presidentes de junta | Lideres | Comunidad | Enlaces<br><br></div>
+            </div>
+
+            <div class="col-md-3" align="center">
+                <div style="font-size: 15pt">Circular N° 005 de 2021 <br><br></div>
+                <div><a href="repositorio/pp_circular_005_2021_padrinos_comunas.pdf"><img src="images/icono-pdf.png" width="50%"></a></div>
+                <div style="font-size: 12pt">Plan de apadrinamiento institucional por comunas<br><br></div>
+            </div>
+
+            <div class="col-md-3" align="center">
+            </div>
+        </div>
+
+        <br><br><br>
+        <hr>
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12">
+                <h2>Plan de capacitaciones - Presupuesto Participativo 2021</h2>
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-xs-12" align="center">
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">Fecha</th>
+                            <th scope="col">Comuna / Grupo poblacional</th>
+                            <th scope="col">Lugar</th>
+                            <th scope="col">Hora</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Febrero 18</th>
+                            <td>Comuna 2</td>
+                            <td>Caseta comunal El Japón</td>
+                            <td>7:00 pm</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Marzo 09</th>
+                            <td>Ediles</td>
+                            <td>Camara de Comercio de Dosquebradas</td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Marzo 16</th>
+                            <td>Comuna 2 - Ediles del sector</td>
+                            <td></td>
+                            <td>7:00 pm</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Abril 07</th>
+                            <td>Comuna 5</td>
+                            <td>Caseta Violetas</td>
+                            <td>7:00 pm</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Abril 08</th>
+                            <td>Comuna 3</td>
+                            <td>Caseta Campestre C</td>
+                            <td>7:00 pm</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Abril 12</th>
+                            <td>Comuna 8</td>
+                            <td>Caseta Primavera Azul</td>
+                            <td>5:30 pm</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Abril 12</th>
+                            <td>Comuna 9</td>
+                            <td>Caseta barrio Venus I</td>
+                            <td>7:00 pm</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Abril 13</th>
+                            <td>Enlaces de la Administración Municipal</td>
+                            <td>Camara de Comercio de Dosquebradas</td>
+                            <td>8:00 am</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Abril 14</th>
+                            <td>Comuna 1</td>
+                            <td>Caseta Villa Alexandra</td>
+                            <td>6:00 pm</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Abril 16</th>
+                            <td>Comité Técnico de Presupuesto Participativo</td>
+                            <td>Virtual</td>
+                            <td>8:00 am</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Abril 16</th>
+                            <td>Corregimiento Alto del Nudo</td>
+                            <td>Camara de Comercio de Dosquebradas</td>
+                            <td>2:00 pm</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Abril 16</th>
+                            <td>Comuna 4</td>
+                            <td>Caseta Santa Isabel</td>
+                            <td>6:00 pm</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Abril 17</th>
+                            <td>Reunión programada con presidentes de diferentes comunas y corregimientos</td>
+                            <td>Camara de Comercio de Dosquebradas</td>
+                            <td>5:00 pm</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Abril 23</th>
+                            <td>Corregimiento La Marcada</td>
+                            <td>Camara de Comercio de Dosquebradas</td>
+                            <td>2:00 pm</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Mayo 04</th>
+                            <td>Comuna 2</td>
+                            <td>Caseta barrio Japon</td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Mayo 05</th>
+                            <td>Comuna 2</td>
+                            <td>Caseta barrio Japon</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <br><br><br>
+        <hr>
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12">
                 <h2>Que es un plan zonal, plan de desarrollo estrategico comunal corregimental y/o plan local ?</h2><br>
                 Es un documento que contiene el diagnóstico de una zona identificada (barrio, Comuna, vereda o corregimiento) del municipio, que presenta y prioriza las potencialidades y necesidades más relevantes de ese territorio; con objetivos, con metas e indicadores; Determina unas estrategias generales definidas en proyectos y un plan de inversiones (locales, comunales, veredales o corregimentales).<br><br>
                 Pero lo más importante que estos documentos son construidos de manera participativa entre la administración y las diferentes comunidades de dicha unidad territorial.<br><br>
                 Dosquebradas, ha construidos varios documentos de este tipo con los líderes, y comunidades en la fase de diagnósticos y definición de propuestas ciudadanas definiendo los problemas comunitarios en los diferentes sectores sociales, económicos, ambientales y culturales.<br><br>
-                <center><img src="images/logo_miniatura_administracion.png" width="120px"></center>
             </div>
 
-            <div class="col-lg-7 col-md-7 col-xs-12" align="center">
+            <div class="col-lg-12 col-md-12 col-xs-12" align="center">
                 <table class="table">
                     <thead class="thead-dark">
                         <tr>
