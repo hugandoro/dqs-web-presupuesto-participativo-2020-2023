@@ -84,7 +84,7 @@ require_once('bd/sle.php');
             </div>
             
             <div class="col-lg-12 col-md-12 col-xs-12" align="center">
-                <hr><div><img src="images/portada.jpg" width="100%"></div>
+                <hr><div><img src="images/portada.png" width="100%"></div>
             </div>
         </div>
 
