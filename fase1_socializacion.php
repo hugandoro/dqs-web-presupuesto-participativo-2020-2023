@@ -119,26 +119,34 @@ require_once('bd/sle.php');
         <hr><br>
 
         <div class="row">
-            <div class="col-md-3" align="center">
-            </div>
 
             <div class="col-md-3" align="center">
-                <div style="font-size: 15pt">Plan de capacitaciones 2021<br><br></div>
+                <div style="font-size: 14pt">Plan de capacitaciones 2021<br><br></div>
                 <div><a href="repositorio/pp_plan_capacitaciones_2021.pdf"><img src="images/icono-pdf.png" width="50%"></a></div>
                 <div style="font-size: 12pt">Juntas administradoras locales | Presidentes de junta | Lideres | Comunidad | Enlaces<br><br></div>
             </div>
 
             <div class="col-md-3" align="center">
-                <div style="font-size: 15pt">Circular N° 005 de 2021 <br><br></div>
+                <div style="font-size: 14pt">Circular N° 005 de 2021 <br><br></div>
                 <div><a href="repositorio/pp_circular_005_2021_padrinos_comunas.pdf"><img src="images/icono-pdf.png" width="50%"></a></div>
                 <div style="font-size: 12pt">Plan de apadrinamiento institucional por comunas<br><br></div>
             </div>
 
-            <div class="col-md-3" align="center">
+             <div class="col-md-3" align="center">
+                <div style="font-size: 14pt">Seguimiento PP 2020<br><br></div>
+                <div><a href="repositorio/Presentacion_Seguimiento_PP_Presupuesto_Participativo_2020.pdf"><img src="images/icono-pdf.png" width="50%"></a></div>
+                <div style="font-size: 12pt">Presentacion seguimiento politica pública de Presupuesto Participativo 2020<br><br></div>
             </div>
+
+            <div class="col-md-3" align="center">
+                <div style="font-size: 14pt">Cronograma PP 2021<br><br></div>
+                <div><a href="repositorio/Cronograma_PP_2021.pdf"><img src="images/icono-pdf.png" width="50%"></a></div>
+                <div style="font-size: 12pt">Cronograma politica pública presupuesto participativo 2021<br><br></div>
+            </div>
+
         </div>
 
-        <br><br><br>
+        <br><br>
         <hr>
 
         <div class="row">
