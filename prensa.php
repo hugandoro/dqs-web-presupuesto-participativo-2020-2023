@@ -88,12 +88,23 @@ require_once('bd/sle.php');
         <hr><br>
 
         <div class="row">
+
             <div class="col-md-12" align="center">
                 <div style="font-size: 24pt">Boletines de prensa</div>
             </div>
+            <div><br><br><br></div>
+            <div class="col-md-12" align="center">
+                <div style="font-size: 16pt"><a href="https://www.dosquebradas.gov.co/web/index.php/215-secretarias/planeacion/noticias/2020/4301-asi-se-asignara-el-presupuesto-participativo-en-dosquebradas-en-el-2021">Así se asignará el Presupuesto Participativo en Dosquebradas en el 2021</a></div>
+            </div>
+            <div><br><br></div>
+            <div class="col-md-12" align="center">
+                <div style="font-size: 16pt"><a href="https://www.dosquebradas.gov.co/web/index.php/215-secretarias/planeacion/noticias/2020/4249-dosquebradas-continua-capacitando-a-sus-lideres-en-presupuesto-participativo">Dosquebradas continúa capacitando a sus líderes en Presupuesto Participativo</a></div>
+            </div>
+            <div><br><br></div>
             <div class="col-md-12" align="center">
                 <div style="font-size: 16pt"><a href="https://www.dosquebradas.gov.co/web/index.php/215-secretarias/planeacion/noticias/2020/4226-dosquebradas-dio-inicio-al-proceso-de-socializacion-de-presupuesto-participativo-2021">Dosquebradas dio inicio al Proceso de socialización de presupuesto participativo 2021</a></div>
             </div>
+
         </div>
 
         <hr><br>

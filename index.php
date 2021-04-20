@@ -4,6 +4,24 @@ error_reporting(0);
 $currentPage = $_SERVER["PHP_SELF"];
 require_once('bd/sle.php');
 ?>
+
+<!-- CONTADOR DE VISITAS -->
+<?php
+$archivo = "contador.txt"; //el archivo que contiene en numero
+$f = fopen($archivo, "r"); //abrimos el archivo en modo de lectura
+if ($f) {
+    $contador = fread($f, filesize($archivo)); //leemos el archivo
+    $contador = $contador + 1; //sumamos +1 al contador
+    fclose($f);
+}
+$f = fopen($archivo, "w+");
+if ($f) {
+    fwrite($f, $contador);
+    fclose($f);
+}
+?>
+<!-- FIN CONTADOR -->
+
 <!doctype html>
 <html lang="es">
 
@@ -39,8 +57,8 @@ require_once('bd/sle.php');
 
     <div class="container">
 
-   	<!-- Barra de navegacion superior -->
-       <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+        <!-- Barra de navegacion superior -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
             <a class="navbar-brand" href="index.php"><img src="images/logo_miniatura_administracion.png" width="25" height="25" alt=""></a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
@@ -82,25 +100,20 @@ require_once('bd/sle.php');
             <div class="col-lg-12 col-md-12 col-xs-12" align="center">
                 <div style="font-size: 36pt"><b>Presupuesto Participativo | Dosquebradas</b></div>
             </div>
-            
+
             <div class="col-lg-12 col-md-12 col-xs-12" align="center">
-                <hr><div><img src="images/portada.png" width="100%"></div>
+                <hr>
+                <div><img src="images/portada.png" width="100%"></div>
             </div>
         </div>
 
         <br><br><br>
 
         <div class="row">
-            <?php
-                $sql = "SELECT * FROM contador WHERE id = 1";
-                $result = mysqli_query($sle,$sql) or die(mysql_error());
-                $contador = mysqli_fetch_row($result);
-                $contador[1] = 0; //Temporalmente luego se debe borrar
-            ?>
-
+        
             <div class="col-md-3" align="center">
                 <div style="font-size: 25pt">Consultas</div>
-                <div style="font-size: 50pt; background-color: #1C9392;color: #ffffff;"><b>0</b></div>
+                <div style="font-size: 50pt; background-color: #1C9392;color: #ffffff;"><b><?php echo $contador;?></b></div>
                 <div style="font-size: 16pt">Realizadas</div>
 
             </div>
@@ -139,7 +152,7 @@ require_once('bd/sle.php');
 
         <br><br><br>
 
-        <div class="row">            
+        <div class="row">
             <div class="col-lg-12 col-md-12 col-xs-12" align="center">
                 <div><img src="images/participacion_2.png" width="40%"></div>
             </div>
@@ -148,7 +161,7 @@ require_once('bd/sle.php');
                 <div><a href="https://www.funcionpublica.gov.co/eva/es/abc"><img src="images/abc.png" width="200px"></a></div>
             </div>
         </div>
-        
+
 
         <!-- Pie de pagina -->
         <footer class="pt-4 my-md-5 pt-md-5 border-top">
@@ -156,7 +169,8 @@ require_once('bd/sle.php');
                 <div class="col-12 col-md">
                     <center><img class="mb-2" src="images/logo_miniatura_administracion.png" alt="" width="100" height="100">
                         <small class="d-block mb-3 text-muted">Secretaria Municipal de Planeación</small>
-                        <small class="d-block mb-3 text-muted">&copy; 2020-2023</small></center>
+                        <small class="d-block mb-3 text-muted">&copy; 2020-2023</small>
+                    </center>
                 </div>
                 <div class="col-6 col-md">
                     <h5>Referentes de consulta Institucional</h5>
@@ -190,15 +204,16 @@ require_once('bd/sle.php');
     if (isset($_GET['id'])) $aux = $_GET['id'];
 
     $sql = "SELECT * FROM visitas WHERE direccion_ip = '$IDUSER' AND fecha=CURDATE() AND aporte=$aux";
-    $result = mysqli_query($sle,$sql);
+    $result = mysqli_query($sle, $sql);
     if (mysqli_num_rows($result) == 0) {
         $sql = "INSERT INTO visitas VALUES(NULL,'$IDUSER',CURDATE(),'999999')";
-        mysqli_query($sle,$sql);
+        mysqli_query($sle, $sql);
     }
 
     $sql = "UPDATE contador SET portada = portada + 1 WHERE id = 1";
-    mysqli_query($sle,$sql) or die(mysql_error());
+    mysqli_query($sle, $sql) or die(mysql_error());
     ?>
+
 
 </body>
 
