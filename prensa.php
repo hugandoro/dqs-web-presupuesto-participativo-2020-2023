@@ -92,19 +92,27 @@ require_once('bd/sle.php');
             <div class="col-md-12" align="center">
                 <div style="font-size: 24pt">Boletines de prensa</div>
             </div>
+
             <div><br><br><br></div>
+
             <div class="col-md-12" align="center">
                 <div style="font-size: 18pt"><a href="https://www.dosquebradas.gov.co/web/index.php/215-secretarias/planeacion/noticias/2020/4314-el-presupuesto-participativo-un-compromiso-con-los-dosquebradenses">El Presupuesto Participativo, un compromiso con los dosquebradenses</a></div>
             </div>
+
             <div><br><br></div>
+
             <div class="col-md-12" align="center">
                 <div style="font-size: 12pt"><a href="https://www.dosquebradas.gov.co/web/index.php/215-secretarias/planeacion/noticias/2020/4301-asi-se-asignara-el-presupuesto-participativo-en-dosquebradas-en-el-2021">Así se asignará el Presupuesto Participativo en Dosquebradas en el 2021</a></div>
             </div>
+
             <div><br><br></div>
+
             <div class="col-md-12" align="center">
                 <div style="font-size: 12pt"><a href="https://www.dosquebradas.gov.co/web/index.php/215-secretarias/planeacion/noticias/2020/4249-dosquebradas-continua-capacitando-a-sus-lideres-en-presupuesto-participativo">Dosquebradas continúa capacitando a sus líderes en Presupuesto Participativo</a></div>
             </div>
+
             <div><br><br></div>
+
             <div class="col-md-12" align="center">
                 <div style="font-size: 12pt"><a href="https://www.dosquebradas.gov.co/web/index.php/215-secretarias/planeacion/noticias/2020/4226-dosquebradas-dio-inicio-al-proceso-de-socializacion-de-presupuesto-participativo-2021">Dosquebradas dio inicio al Proceso de socialización de presupuesto participativo 2021</a></div>
             </div>
@@ -117,6 +125,12 @@ require_once('bd/sle.php');
             <div class="col-md-12" align="center">
                 <div style="font-size: 24pt">Multimedia</div>
             </div>
+
+            <div><br><br><br></div>
+
+            <div class="col-lg-12 col-md-12 col-xs-12" align="center">
+                <iframe width="40%" height="250" src="https://www.youtube.com/embed/SpP-HgtMXXo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div>
 
         <hr><br>
@@ -125,6 +139,25 @@ require_once('bd/sle.php');
             <div class="col-md-12" align="center">
                 <div style="font-size: 24pt">Redes sociales</div>
             </div>
+
+            <div><br><br><br></div>
+
+            <div class="col-md-12" align="center">
+                <div style="font-size: 12pt">Recorremos las 12 comunas y los 2 corregimientos de #Dosquebradas  socializando la Política Pública de Presupuesto Participativo, el informe de ejecución del presupuesto participativo 2017, además del alistamiento y desarrollo de la asamblea de presupuesto participativo de la vigencia 2021<br><br></div>
+            </div>
+
+            <div class="col-md-2" align="center"></div>
+
+            <div class="col-md-4" align="center">
+                <div style="font-size: 14pt"><a href="https://web.facebook.com/AlcaldiadeDosquebradas/posts/2856964917895686">Facebook</a></div>
+            </div>
+
+            <div class="col-md-4" align="center">
+                <div style="font-size: 14pt"><a href="https://www.instagram.com/p/CNxWyhvFnIB/?igshid=1du42fjm4uh1r">Instagram</a></div>
+            </div>
+
+            <div class="col-md-2" align="center"></div>
+
         </div>
 
 
