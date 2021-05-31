@@ -117,6 +117,14 @@ if ($f) {
 
         <hr><br><br>
 
+        <?php 
+            // Actualizacion contado
+            $sql = "SELECT * FROM ciudadano";
+            $result = mysqli_query($sle, $sql);
+            $preinscripciones = 0;
+            $preinscripciones = mysqli_num_rows($result);
+        ?>
+
         <div class="row">
         
             <div class="col-md-3" align="center">
@@ -134,7 +142,7 @@ if ($f) {
 
             <div class="col-md-3" align="center">
                 <div style="font-size: 25pt">Preinscripciones</div>
-                <div style="font-size: 50pt; background-color: #1C9392;color: #ffffff;"><b>0</b></div>
+                <div style="font-size: 50pt; background-color: #1C9392;color: #ffffff;"><b><?php echo $preinscripciones ?></b></div>
                 <div style="font-size: 16pt">Cedulas</div>
             </div>
 
