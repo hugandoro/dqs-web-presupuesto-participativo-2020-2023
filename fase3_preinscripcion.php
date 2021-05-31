@@ -35,7 +35,7 @@ require_once('bd/sle.php');
 
 <!-- <body style="background-color:#F1F7E5;"> -->
 
-<body style="background-color:#ffffff;">
+<body>
 
     <div class="container">
 
@@ -60,7 +60,7 @@ require_once('bd/sle.php');
                         <a class="nav-link" href="fase2_formulacion_proyectos.php">2 | Formulación proyectos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021">3 | Preinscripción</a>
+                        <a class="nav-link" href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Preinscripcion&a=Index&token=">3 | Preinscripción</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="fase4_votacion.php">4 | Votación</a>
