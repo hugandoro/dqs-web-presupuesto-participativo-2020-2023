@@ -77,8 +77,8 @@ if ($f) {
                     <li class="nav-item">
                         <a class="nav-link" href="fase2_formulacion_proyectos.php">2 | Formulación proyectos</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Preinscripcion&a=Index&token=">3 | Preinscripción</a>
+                    <li class="nav-item" style="font-size: 14pt; background-color: #FFC300;">
+                        <a class="nav-link" href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Preinscripcion&a=Index&token="><b>3 | Preinscripción</b></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="fase4_votacion.php">4 | Votación</a>
@@ -97,21 +97,20 @@ if ($f) {
         <hr>
 
         <div class="row">
-            <div class="col-lg-12 col-md-12 col-xs-12" align="center">
-                <div style="font-size: 36pt"><b>Presupuesto Participativo | Dosquebradas</b></div>
-            </div>
+            <!--<div class="col-lg-12 col-md-12 col-xs-12" align="center">
+                <div style="font-size: 32pt"><b>Presupuesto participativo Dosquebradas</b></div>
+            </div>-->
 
             <div class="col-lg-12 col-md-12 col-xs-12" align="center">
-                <hr>
                 <div><img src="images/portada.png" width="100%"></div>
             </div>
         </div>
 
-        <br>
+        <hr>
 
         <div class="row">
             <div class="col-lg-12 col-md-12 col-xs-12" align="center">
-                <iframe width="100%" height="600" src="https://www.youtube.com/embed/SpP-HgtMXXo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <img src="images/proceso_pre1.jpg" width="70%">
             </div>
         </div>
 
@@ -129,26 +128,26 @@ if ($f) {
         
             <div class="col-md-3" align="center">
                 <div style="font-size: 25pt">Consultas</div>
-                <div style="font-size: 50pt; background-color: #1C9392;color: #ffffff;"><b><?php echo $contador;?></b></div>
+                <div style="font-size: 50pt; background-color: #05664C;color: #ffffff;"><b><?php echo $contador;?></b></div>
                 <div style="font-size: 16pt">Realizadas</div>
 
             </div>
 
             <div class="col-md-3" align="center">
                 <div style="font-size: 25pt">Proyectos</div>
-                <div style="font-size: 50pt; background-color: #1C9392;color: #ffffff;"><b>0</b></div>
+                <div style="font-size: 50pt; background-color: #05664C;color: #ffffff;"><b>0</b></div>
                 <div style="font-size: 16pt">Inscritos</div>
             </div>
 
             <div class="col-md-3" align="center">
                 <div style="font-size: 25pt">Preinscripciones</div>
-                <div style="font-size: 50pt; background-color: #1C9392;color: #ffffff;"><b><?php echo $preinscripciones ?></b></div>
+                <div style="font-size: 50pt; background-color: #05664C;color: #ffffff;"><b><?php echo $preinscripciones ?></b></div>
                 <div style="font-size: 16pt">Cedulas</div>
             </div>
 
             <div class="col-md-3" align="center">
                 <div style="font-size: 25pt">Votos</div>
-                <div style="font-size: 50pt; background-color: #1C9392;color: #ffffff;"><b>0</b></div>
+                <div style="font-size: 50pt; background-color: #05664C;color: #ffffff;"><b>0</b></div>
                 <div style="font-size: 16pt">Recibidos</div>
             </div>
         </div>

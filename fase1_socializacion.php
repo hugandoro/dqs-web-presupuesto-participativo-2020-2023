@@ -59,8 +59,8 @@ require_once('bd/sle.php');
                     <li class="nav-item">
                         <a class="nav-link" href="fase2_formulacion_proyectos.php">2 | Formulación proyectos</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Preinscripcion&a=Index&token=">3 | Preinscripción</a>
+                    <li class="nav-item" style="font-size: 14pt; background-color: #FFC300;">
+                        <a class="nav-link" href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Preinscripcion&a=Index&token="><b>3 | Preinscripción</b></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="fase4_votacion.php">4 | Votación</a>
@@ -80,8 +80,16 @@ require_once('bd/sle.php');
 
         <div class="row">
             <div class="col-lg-12 col-md-12 col-xs-12" align="center">
-                <div style="font-size: 36pt"><b>Presupuesto Participativo | Dosquebradas</b></div>
+                <div style="font-size: 32pt"><b>Presupuesto participativo Dosquebradas</b></div>
                 <div style="font-size: 18pt"><b>Fase 1 socializacion</b></div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12" align="center">
+                <iframe width="100%" height="520" src="https://www.youtube.com/embed/SpP-HgtMXXo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
 
@@ -132,7 +140,7 @@ require_once('bd/sle.php');
                 <div style="font-size: 12pt">Plan de apadrinamiento institucional por comunas<br><br></div>
             </div>
 
-             <div class="col-md-3" align="center">
+            <div class="col-md-3" align="center">
                 <div style="font-size: 14pt">Seguimiento PP 2020<br><br></div>
                 <div><a href="repositorio/Presentacion_Seguimiento_PP_Presupuesto_Participativo_2020.pdf"><img src="images/icono-pdf.png" width="50%"></a></div>
                 <div style="font-size: 12pt">Presentacion seguimiento politica pública de Presupuesto Participativo 2020<br><br></div>
@@ -312,60 +320,60 @@ require_once('bd/sle.php');
                             <td><a href="https://www.dosquebradas.gov.co/web/index.php/about/planes-estrategicos-sectoriales-e-institucionales/send/421-ano-2017/3454-plan-de-desarrollo-estrategico-comunal-y-comunitario-comuna-2-2017"><img src="images/icono-pdf.png" width="25px"></a></td>
                         </tr>
                         <tr>
-                        <th scope="row">2</th>
+                            <th scope="row">2</th>
                             <td>socialización documento Comuna 2</td>
                             <td>2017</td>
                             <td>Anexo de socialización- registro fotográfico </td>
                             <td><a href="https://www.dosquebradas.gov.co/web/index.php/about/planes-estrategicos-sectoriales-e-institucionales/send/421-ano-2017/3453-anexo-socializacion-del-documento-terminado-con-la-comunidad"><img src="images/icono-pdf.png" width="25px"></a></td>
                         </tr>
                         <tr>
-                        <th scope="row">3</th>
+                            <th scope="row">3</th>
                             <td>Plan de Desarrollo Comuna 3</td>
                             <td>2015</td>
                             <td>Plan de Desarrollo Comuna 3</td>
                             <td><a href="https://www.dosquebradas.gov.co/web/index.php/about/planes-estrategicos-sectoriales-e-institucionales/send/422-ano-2015/3455-plan-de-desarrollo-comuna-3-vigencia-2015-2025"><img src="images/icono-pdf.png" width="25px"></a></td>
                         </tr>
                         <th scope="row">4</th>
-                            <td>Santa Isabel </td>
-                            <td>2019</td>
-                            <td>Estratégico Comunal y Comunitario</td>
-                            <td><a href="https://www.dosquebradas.gov.co/web/index.php/about/planes-estrategicos-sectoriales-e-institucionales/send/423-ano-2019/3456-plan-de-desarrollo-estrategico-comunal-y-comunitario-comuna-4"><img src="images/icono-pdf.png" width="25px"></a></td>
+                        <td>Santa Isabel </td>
+                        <td>2019</td>
+                        <td>Estratégico Comunal y Comunitario</td>
+                        <td><a href="https://www.dosquebradas.gov.co/web/index.php/about/planes-estrategicos-sectoriales-e-institucionales/send/423-ano-2019/3456-plan-de-desarrollo-estrategico-comunal-y-comunitario-comuna-4"><img src="images/icono-pdf.png" width="25px"></a></td>
                         </tr>
                         <th scope="row">6</th>
-                            <td>Plan de desarrollo zonal Comuna 6</td>
-                            <td>2016</td>
-                            <td>Zonal</td>
-                            <td><a href="https://www.dosquebradas.gov.co/web/index.php/about/planes-estrategicos-sectoriales-e-institucionales/send/424-ano-2016/3458-plan-de-desarrollo-zonal-comuna-6-2016-2026"><img src="images/icono-pdf.png" width="25px"></a></td>
+                        <td>Plan de desarrollo zonal Comuna 6</td>
+                        <td>2016</td>
+                        <td>Zonal</td>
+                        <td><a href="https://www.dosquebradas.gov.co/web/index.php/about/planes-estrategicos-sectoriales-e-institucionales/send/424-ano-2016/3458-plan-de-desarrollo-zonal-comuna-6-2016-2026"><img src="images/icono-pdf.png" width="25px"></a></td>
                         </tr>
                         <th scope="row">8</th>
-                            <td>Nuestra Señora de Chiquinquirá</td>
-                            <td>2017</td>
-                            <td>Estratégico Comunal</td>
-                            <td><a href="https://www.dosquebradas.gov.co/web/index.php/about/planes-estrategicos-sectoriales-e-institucionales/send/421-ano-2017/3459-plan-de-desarrollo-estrategico-comunal-y-comunitario-comuna-8"><img src="images/icono-pdf.png" width="25px"></a></td>
+                        <td>Nuestra Señora de Chiquinquirá</td>
+                        <td>2017</td>
+                        <td>Estratégico Comunal</td>
+                        <td><a href="https://www.dosquebradas.gov.co/web/index.php/about/planes-estrategicos-sectoriales-e-institucionales/send/421-ano-2017/3459-plan-de-desarrollo-estrategico-comunal-y-comunitario-comuna-8"><img src="images/icono-pdf.png" width="25px"></a></td>
                         </tr>
                         <th scope="row">9</th>
-                            <td>Manuel Elkin Patarroyo</td>
-                            <td>2018</td>
-                            <td>Estratégico Comunal</td>
-                            <td><a href="https://www.dosquebradas.gov.co/web/index.php/about/planes-estrategicos-sectoriales-e-institucionales/send/423-ano-2019/3460-plan-de-desarrollo-estrategico-comunal-y-comunitario-comuna-9-2018"><img src="images/icono-pdf.png" width="25px"></a></td>
+                        <td>Manuel Elkin Patarroyo</td>
+                        <td>2018</td>
+                        <td>Estratégico Comunal</td>
+                        <td><a href="https://www.dosquebradas.gov.co/web/index.php/about/planes-estrategicos-sectoriales-e-institucionales/send/423-ano-2019/3460-plan-de-desarrollo-estrategico-comunal-y-comunitario-comuna-9-2018"><img src="images/icono-pdf.png" width="25px"></a></td>
                         </tr>
                         <th scope="row">10</th>
-                            <td>Estación Gutiérrez</td>
-                            <td>2018</td>
-                            <td>Estratégico Comunal</td>
-                            <td><a href="https://www.dosquebradas.gov.co/web/index.php/about/planes-estrategicos-sectoriales-e-institucionales/send/425-ano-2018/3462-plan-de-desarrollo-estrategico-comunal-y-comunitario-comuna-10"><img src="images/icono-pdf.png" width="25px"></a></td>
+                        <td>Estación Gutiérrez</td>
+                        <td>2018</td>
+                        <td>Estratégico Comunal</td>
+                        <td><a href="https://www.dosquebradas.gov.co/web/index.php/about/planes-estrategicos-sectoriales-e-institucionales/send/425-ano-2018/3462-plan-de-desarrollo-estrategico-comunal-y-comunitario-comuna-10"><img src="images/icono-pdf.png" width="25px"></a></td>
                         </tr>
                         <th scope="row">11</th>
-                            <td>Los Fundadores</td>
-                            <td>2016</td>
-                            <td>Zonal</td>
-                            <td><a href="https://www.dosquebradas.gov.co/web/index.php/about/planes-estrategicos-sectoriales-e-institucionales/send/424-ano-2016/3463-plan-de-desarrollo-zonal-comuna-11"><img src="images/icono-pdf.png" width="25px"></a></td>
+                        <td>Los Fundadores</td>
+                        <td>2016</td>
+                        <td>Zonal</td>
+                        <td><a href="https://www.dosquebradas.gov.co/web/index.php/about/planes-estrategicos-sectoriales-e-institucionales/send/424-ano-2016/3463-plan-de-desarrollo-zonal-comuna-11"><img src="images/icono-pdf.png" width="25px"></a></td>
                         </tr>
                         <th scope="row">Alto del Nudo</th>
-                            <td>Serranía Alto del Nudo</td>
-                            <td>2018</td>
-                            <td>Corregimental</td>
-                            <td><a href="https://www.dosquebradas.gov.co/web/index.php/about/planes-estrategicos-sectoriales-e-institucionales/send/425-ano-2018/3464-plan-de-desarrollo-estrategico-comunal-y-comunitario"><img src="images/icono-pdf.png" width="25px"></a></td>
+                        <td>Serranía Alto del Nudo</td>
+                        <td>2018</td>
+                        <td>Corregimental</td>
+                        <td><a href="https://www.dosquebradas.gov.co/web/index.php/about/planes-estrategicos-sectoriales-e-institucionales/send/425-ano-2018/3464-plan-de-desarrollo-estrategico-comunal-y-comunitario"><img src="images/icono-pdf.png" width="25px"></a></td>
                         </tr>
                     </tbody>
                 </table>

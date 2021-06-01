@@ -39,8 +39,8 @@ require_once('bd/sle.php');
 
     <div class="container">
 
-   	<!-- Barra de navegacion superior -->
-       <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+        <!-- Barra de navegacion superior -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
             <a class="navbar-brand" href="index.php"><img src="images/logo_miniatura_administracion.png" width="25" height="25" alt=""></a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,8 +59,8 @@ require_once('bd/sle.php');
                     <li class="nav-item">
                         <a class="nav-link" href="fase2_formulacion_proyectos.php">2 | Formulación proyectos</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Preinscripcion&a=Index&token=">3 | Preinscripción</a>
+                    <li class="nav-item" style="font-size: 14pt; background-color: #FFC300;">
+                        <a class="nav-link" href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Preinscripcion&a=Index&token="><b>3 | Preinscripción</b></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="fase4_votacion.php">4 | Votación</a>
@@ -80,7 +80,7 @@ require_once('bd/sle.php');
 
         <div class="row">
             <div class="col-lg-12 col-md-12 col-xs-12" align="center">
-                <div style="font-size: 36pt"><b>Presupuesto Participativo | Dosquebradas</b></div>
+                <div style="font-size: 32pt"><b>Presupuesto participativo Dosquebradas</b></div>
                 <div style="font-size: 18pt"><b>Fase 4 votación</b></div>
             </div>
         </div>
@@ -100,7 +100,8 @@ require_once('bd/sle.php');
                 <div class="col-12 col-md">
                     <center><img class="mb-2" src="images/logo_miniatura_administracion.png" alt="" width="100" height="100">
                         <small class="d-block mb-3 text-muted">Secretaria Municipal de Planeación</small>
-                        <small class="d-block mb-3 text-muted">&copy; 2020-2023</small></center>
+                        <small class="d-block mb-3 text-muted">&copy; 2020-2023</small>
+                    </center>
                 </div>
                 <div class="col-6 col-md">
                     <h5>Referentes de consulta Institucional</h5>
@@ -134,14 +135,14 @@ require_once('bd/sle.php');
     if (isset($_GET['id'])) $aux = $_GET['id'];
 
     $sql = "SELECT * FROM visitas WHERE direccion_ip = '$IDUSER' AND fecha=CURDATE() AND aporte=$aux";
-    $result = mysqli_query($sle,$sql);
+    $result = mysqli_query($sle, $sql);
     if (mysqli_num_rows($result) == 0) {
         $sql = "INSERT INTO visitas VALUES(NULL,'$IDUSER',CURDATE(),'999999')";
-        mysqli_query($sle,$sql);
+        mysqli_query($sle, $sql);
     }
 
     $sql = "UPDATE contador SET portada = portada + 1 WHERE id = 1";
-    mysqli_query($sle,$sql) or die(mysql_error());
+    mysqli_query($sle, $sql) or die(mysql_error());
     ?>
 
 </body>
