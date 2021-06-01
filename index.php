@@ -101,16 +101,14 @@ if ($f) {
                 <div style="font-size: 32pt"><b>Presupuesto participativo Dosquebradas</b></div>
             </div>-->
 
-            <div class="col-lg-12 col-md-12 col-xs-12" align="center">
+            <!-- <div class="col-lg-12 col-md-12 col-xs-12" align="center">
                 <div><img src="images/portada.png" width="100%"></div>
-            </div>
+            </div>-->
         </div>
-
-        <hr>
 
         <div class="row">
             <div class="col-lg-12 col-md-12 col-xs-12" align="center">
-                <img src="images/proceso_pre1.jpg" width="70%">
+                <a href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Preinscripcion&a=Index&token="><img src="images/banner_pre.jpg" width="100%"></a>
             </div>
         </div>
 
