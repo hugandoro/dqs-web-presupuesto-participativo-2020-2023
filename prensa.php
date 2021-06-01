@@ -165,22 +165,6 @@ require_once('bd/sle.php');
             <!-- Fin separador -->
 
             <div class="col-md-12" align="center">
-                <div style="font-size: 12pt">Desde el 1 y hasta el 30 de junio, los habitantes de Dosquebradas podrán preinscribirse en el portal web presupuestoparticipativo.dosquebradas.gov.co para participar de la asamblea de elecciones de presupuesto participativo para la vigencia 2021, la cual se realizará el domingo 25 de julio.<br><br></div>
-            </div>
-            <div class="col-md-4" align="center"></div>
-            <div class="col-md-2" align="center">
-                <div style="font-size: 14pt"><a href="https://www.facebook.com/AlcaldiadeDosquebradas/photos/a.1685330988392424/2888252991433545/?type=3"><img src="images/facebook.png" height="45px"></a></div>
-            </div>
-            <div class="col-md-2" align="center">
-                <div style="font-size: 14pt"><a href="https://www.instagram.com/p/CPblGl2lPx6/?utm_medium=copy_link"><img src="images/instagram.png" height="40px"></a></div>
-            </div>
-            <div class="col-md-4" align="center"></div>
-
-            <!-- Separador -->
-            <div class="col-md-12" align="center"><hr></div>
-            <!-- Fin separador -->
-
-            <div class="col-md-12" align="center">
                 <div style="font-size: 12pt">Brindamos asesoría a los líderes de las diferentes comunas y corregimientos frente viabilidad de los proyectos que pueden ser inscritos en la Asamblea de Presupuesto Participativo
 Las elecciones se realizarán el próximo 25 de julio.<br><br></div>
             </div>
@@ -190,6 +174,22 @@ Las elecciones se realizarán el próximo 25 de julio.<br><br></div>
             </div>
             <div class="col-md-2" align="center">
                 <div style="font-size: 14pt"><a href="https://www.instagram.com/p/CPTLiMktacu/?utm_medium=share_sheet"><img src="images/instagram.png" height="40px"></a></div>
+            </div>
+            <div class="col-md-4" align="center"></div>
+
+            <!-- Separador -->
+            <div class="col-md-12" align="center"><hr></div>
+            <!-- Fin separador -->
+
+            <div class="col-md-12" align="center">
+                <div style="font-size: 12pt">Desde el 1 y hasta el 30 de junio, los habitantes de Dosquebradas podrán preinscribirse en el portal web presupuestoparticipativo.dosquebradas.gov.co para participar de la asamblea de elecciones de presupuesto participativo para la vigencia 2021, la cual se realizará el domingo 25 de julio.<br><br></div>
+            </div>
+            <div class="col-md-4" align="center"></div>
+            <div class="col-md-2" align="center">
+                <div style="font-size: 14pt"><a href="https://www.facebook.com/AlcaldiadeDosquebradas/photos/a.1685330988392424/2888252991433545/?type=3"><img src="images/facebook.png" height="45px"></a></div>
+            </div>
+            <div class="col-md-2" align="center">
+                <div style="font-size: 14pt"><a href="https://www.instagram.com/p/CPblGl2lPx6/?utm_medium=copy_link"><img src="images/instagram.png" height="40px"></a></div>
             </div>
             <div class="col-md-4" align="center"></div>
 
