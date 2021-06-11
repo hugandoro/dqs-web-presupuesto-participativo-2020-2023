@@ -108,24 +108,29 @@ require_once('bd/sle.php');
         <hr><br>
 
         <div class="row">
-            <div class="col-md-3" align="center">
-                <div style="font-size: 15pt">Ley 1757 de 2015<br><br><br></div>
+            <div class="col-md-2" align="center">
+                <div style="font-size: 15pt">Ley participacion ciudadana N° 1757 de 2015<br><br></div>
                 <div><a href="repositorio/ley_1757_2015_version_resumida.pdf"><img src="images/icono-pdf.png" width="50%"></a></div>
             </div>
 
-            <div class="col-md-3" align="center">
-                <div style="font-size: 15pt">Acuerdo 021 de 2017<br><br><br></div>
+            <div class="col-md-2" align="center">
+                <div style="font-size: 15pt">Acuerdo Municipal N° 021 de 2017<br><br></div>
                 <div><a href="repositorio/acuerdo_021_2017_pp_presupuesto_participativo.pdf"><img src="images/icono-pdf.png" width="50%"></a></div>
             </div>
 
-            <div class="col-md-3" align="center">
+            <div class="col-md-2" align="center">
                 <div style="font-size: 15pt">Reglamento interno del acuerdo<br><br></div>
                 <div><a href="repositorio/reglamento_interno_acuerdo_021_2017.pdf"><img src="images/icono-pdf.png" width="50%"></a></div>
             </div>
 
-            <div class="col-md-3" align="center">
+            <div class="col-md-2" align="center">
                 <div style="font-size: 15pt">Decreto 133 de 2020 (Creación Comite)<br><br></div>
                 <div><a href="repositorio/decreto_133_2020.pdf"><img src="images/icono-pdf.png" width="50%"></a></div>
+            </div>
+
+            <div class="col-md-2" align="center">
+                <div style="font-size: 15pt">Gobernacion de Risaralda ordenanza 004 de 2020<br></div>
+                <div><a href="repositorio/ordenanza_004_marzo_19_2020.pdf"><img src="images/icono-pdf.png" width="50%"></a></div>
             </div>
         </div>
 
