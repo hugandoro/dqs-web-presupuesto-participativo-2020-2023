@@ -132,6 +132,11 @@ require_once('bd/sle.php');
                 <div style="font-size: 15pt">Gobernacion de Risaralda ordenanza 004 de 2020<br></div>
                 <div><a href="repositorio/ordenanza_004_marzo_19_2020.pdf"><img src="images/icono-pdf.png" width="50%"></a></div>
             </div>
+
+            <div class="col-md-2" align="center">
+                <div style="font-size: 15pt">Decreto 151 de 2021 (Modificacion decreto 133 2020)<br></div>
+                <div><a href="repositorio/decreto_151_junio_21_2021.pdf"><img src="images/icono-pdf.png" width="50%"></a></div>
+            </div>
         </div>
 
         <hr><br>

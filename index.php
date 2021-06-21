@@ -159,9 +159,15 @@ if ($f) {
         </div>
 
 
-        <!--
         <br><br><hr>
 
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12" align="center">
+                <a href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Preinscripcion&a=Index&token="><img src="images/pasos_preinscripcion.jpg" width="100%"></a>
+            </div>
+        </div>
+
+        <!--
         <div class="row">
             <div class="col-lg-12 col-md-12 col-xs-12" align="center">
                 <div><img src="images/participacion_2.png" width="40%"></div>

@@ -100,14 +100,19 @@ require_once('bd/sle.php');
         <hr><br>
 
         <div class="row">
-            <div class="col-md-6" align="center">
+            <div class="col-md-4" align="center">
                 <div style="font-size: 15pt">Formato unico proyecto<br><br></div>
                 <div><a href="repositorio/formato_unico_proyecto_idea_v2.docx"><img src="images/icono-word.png" width="50%"></a></div>
             </div>
 
-            <div class="col-md-6" align="center">
-                <div style="font-size: 15pt">Restricciones de viabilidad (En actualizacion...)<br><br></div>
+            <div class="col-md-4" align="center">
+                <div style="font-size: 15pt">Restricciones de viabilidad<br><br></div>
                 <div><a href="repositorio/restricciones_viabilidad_proyecto_idea.docx"><img src="images/icono-word.png" width="50%"></a></div>
+            </div>
+
+            <div class="col-md-4" align="center">
+                <div style="font-size: 15pt">Mecanismo concertacion de proyectos presupuesto participativo V3<br><br></div>
+                <div><a href="repositorio/mecanismo_concertacion_proyectos_presupuesto_participativo_v3.pdf"><img src="images/icono-pdf.png" width="20%"></a></div>
             </div>
 
         </div>
