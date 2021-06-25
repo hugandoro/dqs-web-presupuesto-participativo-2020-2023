@@ -96,7 +96,19 @@ require_once('bd/sle.php');
             <div><br><br><br></div>
 
             <div class="col-md-12" align="center">
-                <div style="font-size: 18pt"><a href="https://dosquebradas.gov.co/web/index.php/215-secretarias/planeacion/noticias/2020/4449-en-pocos-dias-comenzaran-las-preinscripciones-de-los-proyectos-de-presupuesto-participativo">En pocos días comenzarán las preinscripciones de los proyectos de Presupuesto Participativo</a></div>
+                <div style="font-size: 18pt"><a href="https://www.dosquebradas.gov.co/web/index.php/215-secretarias/planeacion/noticias/2020/4517-alcaldia-de-dosquebradas-amplia-el-plazo-para-la-recepcion-de-proyectos-para-las-votaciones-de-presupuesto-participativo">Alcaldía de Dosquebradas amplía el plazo para la recepción de proyectos para las votaciones de Presupuesto Participativo</a><br><br></div>
+            </div>
+
+            <div><br><br></div>            
+
+            <div class="col-md-12" align="center">
+                <div style="font-size: 12pt"><a href="https://www.dosquebradas.gov.co/web/index.php/215-secretarias/planeacion/noticias/2020/4484-hasta-el-30-de-junio-estaran-abiertas-las-preinscripciones-para-las-votaciones-de-presupuesto-participativo">Hasta el 30 de junio estarán abiertas las preinscripciones para las votaciones de Presupuesto Participativo</a></div>
+            </div>
+
+            <div><br><br></div>
+
+            <div class="col-md-12" align="center">
+                <div style="font-size: 12pt"><a href="https://dosquebradas.gov.co/web/index.php/215-secretarias/planeacion/noticias/2020/4449-en-pocos-dias-comenzaran-las-preinscripciones-de-los-proyectos-de-presupuesto-participativo">En pocos días comenzarán las preinscripciones de los proyectos de Presupuesto Participativo</a></div>
             </div>
 
             <div><br><br></div>
@@ -134,8 +146,32 @@ require_once('bd/sle.php');
 
             <div><br><br><br></div>
 
-            <div class="col-lg-12 col-md-12 col-xs-12" align="center">
-                <iframe width="40%" height="250" src="https://www.youtube.com/embed/SpP-HgtMXXo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="col-lg-6 col-md-6 col-xs-6" align="center">
+                <iframe width="100%" height="300" src="https://www.youtube.com/embed/P3LBFvdZdBE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-xs-6" align="center">
+                <iframe width="100%" height="300" src="https://www.youtube.com/embed/SpP-HgtMXXo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <hr><br>
+
+        <div class="row">
+            <div class="col-md-12" align="center">
+                <div style="font-size: 24pt">Galeria fotografica</div>
+            </div>
+
+            <div><br><br><br></div>
+
+            <div class="col-lg-4 col-md-4 col-xs-4" align="center">
+                <img src="images/fotos/foto1.jpg" width="100%">
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-4" align="center">
+                <img src="images/fotos/foto2.jpg" width="100%">
+            </div>            
+            <div class="col-lg-4 col-md-4 col-xs-4" align="center">
+                <img src="images/fotos/foto3.jpg" width="100%">
             </div>
         </div>
 
