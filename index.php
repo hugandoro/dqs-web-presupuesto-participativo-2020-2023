@@ -96,15 +96,6 @@ if ($f) {
 
         <hr>
 
-        <div class="row">
-            <!--<div class="col-lg-12 col-md-12 col-xs-12" align="center">
-                <div style="font-size: 32pt"><b>Presupuesto participativo Dosquebradas</b></div>
-            </div>-->
-
-            <!-- <div class="col-lg-12 col-md-12 col-xs-12" align="center">
-                <div><img src="images/portada.png" width="100%"></div>
-            </div>-->
-        </div>
 
         <div class="row">
             <div class="col-lg-12 col-md-12 col-xs-12" align="center">
@@ -114,13 +105,16 @@ if ($f) {
 
         <hr>
 
+        <!--
         <div class="row">
             <div class="col-lg-12 col-md-12 col-xs-12" align="center">
                 <a href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Preinscripcion&a=Index&token="><img src="images/banner_pre.jpg" width="100%"></a>
             </div>
         </div>
+        
 
         <hr><br><br>
+        -->
 
         <?php 
             // Actualizacion contado
@@ -163,21 +157,17 @@ if ($f) {
 
         <div class="row">
             <div class="col-lg-12 col-md-12 col-xs-12" align="center">
-                <a href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Preinscripcion&a=Index&token="><img src="images/pasos_preinscripcion.jpg" width="100%"></a>
+                <a href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Preinscripcion&a=Index&token="><img src="images/proceso_pre2.jpg" width="100%"></a>
             </div>
         </div>
+        
+        <hr><br><br>
 
-        <!--
         <div class="row">
             <div class="col-lg-12 col-md-12 col-xs-12" align="center">
-                <div><img src="images/participacion_2.png" width="40%"></div>
-            </div>
-
-            <div class="col-lg-12 col-md-12 col-xs-12" align="center">
-                <div><a href="https://www.funcionpublica.gov.co/eva/es/abc"><img src="images/abc.png" width="200px"></a></div>
+                <a href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Preinscripcion&a=Index&token="><img src="images/pasos_preinscripcion.jpg" width="93%"></a>
             </div>
         </div>
-        -->
 
 
         <!-- Pie de pagina -->
