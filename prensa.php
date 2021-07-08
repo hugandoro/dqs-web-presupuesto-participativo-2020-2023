@@ -63,7 +63,7 @@ require_once('bd/sle.php');
                         <a class="nav-link" href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Preinscripcion&a=Index&token="><b>3 | Preinscripción</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="fase4_votacion.php">4 | Votación</a>
+                        <a class="nav-link" href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Votacion&a=Index&token=">4 | Votación</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="fase5_resultados.php">5 | Resultados</a>
@@ -96,7 +96,13 @@ require_once('bd/sle.php');
             <div><br><br><br></div>
 
             <div class="col-md-12" align="center">
-                <div style="font-size: 18pt"><a href="https://www.dosquebradas.gov.co/web/index.php/215-secretarias/planeacion/noticias/2020/4517-alcaldia-de-dosquebradas-amplia-el-plazo-para-la-recepcion-de-proyectos-para-las-votaciones-de-presupuesto-participativo">Alcaldía de Dosquebradas amplía el plazo para la recepción de proyectos para las votaciones de Presupuesto Participativo</a><br><br></div>
+                <div style="font-size: 18pt"><a href="https://www.dosquebradas.gov.co/web/index.php/215-secretarias/planeacion/noticias/2020/4560-comite-evaluador-de-proyectos-de-presupuesto-participativo-en-dosquebradas-presentara-recomendaciones">Comité evaluador de proyectos de Presupuesto Participativo en Dosquebradas presentará recomendaciones</a><br><br></div>
+            </div>
+
+            <div><br><br><br></div>
+
+            <div class="col-md-12" align="center">
+                <div style="font-size: 12pt"><a href="https://www.dosquebradas.gov.co/web/index.php/215-secretarias/planeacion/noticias/2020/4517-alcaldia-de-dosquebradas-amplia-el-plazo-para-la-recepcion-de-proyectos-para-las-votaciones-de-presupuesto-participativo">Alcaldía de Dosquebradas amplía el plazo para la recepción de proyectos para las votaciones de Presupuesto Participativo</a><br><br></div>
             </div>
 
             <div><br><br></div>            

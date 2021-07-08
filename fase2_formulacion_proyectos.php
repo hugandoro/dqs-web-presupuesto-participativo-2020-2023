@@ -63,7 +63,7 @@ require_once('bd/sle.php');
                         <a class="nav-link" href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Preinscripcion&a=Index&token="><b>3 | Preinscripción</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="fase4_votacion.php">4 | Votación</a>
+                        <a class="nav-link" href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Votacion&a=Index&token=">4 | Votación</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="fase5_resultados.php">5 | Resultados</a>
@@ -100,19 +100,24 @@ require_once('bd/sle.php');
         <hr><br>
 
         <div class="row">
-            <div class="col-md-4" align="center">
-                <div style="font-size: 15pt">Formato unico proyecto<br><br></div>
+            <div class="col-md-3" align="center">
+                <div style="font-size: 12pt">Formato unico proyecto<br><br></div>
                 <div><a href="repositorio/formato_unico_proyecto_idea_v2.docx"><img src="images/icono-word.png" width="50%"></a></div>
             </div>
 
-            <div class="col-md-4" align="center">
-                <div style="font-size: 15pt">Restricciones de viabilidad<br><br></div>
+            <div class="col-md-3" align="center">
+                <div style="font-size: 12pt">Restricciones de viabilidad<br><br></div>
                 <div><a href="repositorio/restricciones_viabilidad_proyecto_idea.docx"><img src="images/icono-word.png" width="50%"></a></div>
             </div>
 
-            <div class="col-md-4" align="center">
-                <div style="font-size: 15pt">Mecanismo concertacion de proyectos presupuesto participativo V3<br><br></div>
+            <div class="col-md-3" align="center">
+                <div style="font-size: 12pt">Mecanismo concertacion proyectos presupuesto participativo<br><br></div>
                 <div><a href="repositorio/mecanismo_concertacion_proyectos_presupuesto_participativo_v3.pdf"><img src="images/icono-pdf.png" width="20%"></a></div>
+            </div>
+
+            <div class="col-md-3" align="center">
+                <div style="font-size: 12pt">Circular N° 061 solicitud certificacion viabilidad tecnica<br><br></div>
+                <div><a href="repositorio/circular_061_solicitud_viabilidad_tecnica.pdf"><img src="images/icono-pdf.png" width="20%"></a></div>
             </div>
 
         </div>

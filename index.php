@@ -81,7 +81,7 @@ if ($f) {
                         <a class="nav-link" href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Preinscripcion&a=Index&token="><b>3 | Preinscripción</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="fase4_votacion.php">4 | Votación</a>
+                        <a class="nav-link" href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Votacion&a=Index&token=">4 | Votación</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="fase5_resultados.php">5 | Resultados</a>
