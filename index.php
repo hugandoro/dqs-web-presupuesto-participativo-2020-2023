@@ -143,6 +143,7 @@ if ($f) {
                 <div style="font-size: 25pt">Preinscripciones</div>
                 <div style="font-size: 50pt; background-color: #05664C;color: #ffffff;"><b><?php echo $preinscripciones ?></b></div>
                 <div style="font-size: 16pt">Cedulas</div>
+                <div style="font-size: 8pt">* Etapa cerrada, en proceso de resolucion casos de preinscripciones radicadas manualmente, por lo anterior, la cifra definitiva puede aumentar ligeramente</div>
             </div>
 
             <div class="col-md-3" align="center">
