@@ -122,6 +122,11 @@ if ($f) {
             $result = mysqli_query($sle, $sql);
             $preinscripciones = 0;
             $preinscripciones = mysqli_num_rows($result);
+
+            $sql = "SELECT * FROM votos";
+            $result = mysqli_query($sle, $sql);
+            $votos = 0;
+            $votos = mysqli_num_rows($result);
         ?>
 
         <div class="row">
@@ -143,12 +148,11 @@ if ($f) {
                 <div style="font-size: 25pt">Preinscripciones</div>
                 <div style="font-size: 50pt; background-color: #05664C;color: #ffffff;"><b><?php echo $preinscripciones ?></b></div>
                 <div style="font-size: 16pt">Cedulas</div>
-                <div style="font-size: 8pt">* Etapa cerrada, en proceso de resolucion casos de preinscripciones radicadas manualmente, por lo anterior, la cifra definitiva puede aumentar ligeramente</div>
             </div>
 
             <div class="col-md-3" align="center">
                 <div style="font-size: 25pt">Votos</div>
-                <div style="font-size: 50pt; background-color: #05664C;color: #ffffff;"><b>0</b></div>
+                <div style="font-size: 50pt; background-color: #05664C;color: #ffffff;"><b><?php echo $votos ?></b></div>
                 <div style="font-size: 16pt">Recibidos</div>
             </div>
         </div>
