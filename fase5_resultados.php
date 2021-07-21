@@ -59,14 +59,14 @@ require_once('bd/sle.php');
                     <li class="nav-item">
                         <a class="nav-link" href="fase2_formulacion_proyectos.php">2 | Formulación proyectos</a>
                     </li>
-                    <li class="nav-item" style="font-size: 14pt; background-color: #FFC300;">
+                    <li class="nav-item">
                         <a class="nav-link" href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Preinscripcion&a=Index&token="><b>3 | Preinscripción</b></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Votacion&a=Index&token=">4 | Votación</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="fase5_resultados.php">5 | Resultados</a>
+                        <a class="nav-link" href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Resultados&a=Index&token=">5 | Resultados</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="prensa.php">Prensa y medios</a>
