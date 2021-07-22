@@ -139,7 +139,7 @@ require_once('bd/sle.php');
                 <table class="table">
                     <thead class="thead-dark">
                         <tr>
-                            <th scope="col">Comuna</th>
+                            <th scope="col" style="width: 20%;">Comuna</th>
                             <th scope="col">Proyecto</th>
                         </tr>
                     </thead>
