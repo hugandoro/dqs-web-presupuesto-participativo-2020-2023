@@ -140,7 +140,7 @@ if ($f) {
 
             <div class="col-md-3" align="center">
                 <div style="font-size: 25pt">Proyectos</div>
-                <div style="font-size: 50pt; background-color: #05664C;color: #ffffff;"><b>12</b></div>
+                <div style="font-size: 50pt; background-color: #05664C;color: #ffffff;"><b>15</b></div>
                 <div style="font-size: 16pt">Inscritos</div>
             </div>
 

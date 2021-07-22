@@ -1,6 +1,6 @@
 <?php
 header('Content-Type: text/html; charset=UTF-8');
-error_reporting(0);
+//error_reporting(0);
 $currentPage = $_SERVER["PHP_SELF"];
 require_once('bd/sle.php');
 ?>
@@ -121,6 +121,44 @@ require_once('bd/sle.php');
             </div>
 
         </div>
+
+        <br><hr><br><br>
+
+        <?php 
+            // Consulta los proyectos a listar
+            $sql = "SELECT * FROM proyectos";
+            $result = mysqli_query($sle, $sql);
+        ?>
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12">
+                <center><h2>Proyectos inscritos por comunas - Vigencia 2021</h2></center><br><br>
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-xs-12" align="center">
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">Comuna</th>
+                            <th scope="col">Proyecto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    <?php 
+                    while($rows = mysqli_fetch_array($result)){
+                        echo "<tr>";
+                        echo "<th scope='row'>Comuna N° $rows[2]</th>";
+                        echo "<td>$rows[1]</td>";
+                        echo "</tr>";
+                    }
+                    ?>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
 
 
         <!-- Pie de pagina -->
