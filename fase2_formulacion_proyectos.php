@@ -159,6 +159,58 @@ require_once('bd/sle.php');
             </div>
         </div>
 
+        <br><hr><br><br>
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12">
+                <center><h2>Proyectos inscritos zona rural - Vigencia 2021</h2></center><br><br>
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-xs-12" align="center">
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col" style="width: 20%;">Comuna</th>
+                            <th scope="col">Proyecto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                        <th scope='row'>Serrania Las Marcadas</th>
+                        <td>Mejoramiento vial vía rural acceso vereda alto del oso, constituido por: cunetas, transversales manejo de agua lluvia, disipadores de energía. Tramo comprendido desde el punto de partida de la Y vía Frailes al alto del Oso 330 mts adelante de la comuna Serranía de las Marcadas del municipio de Dosquebradas-Risaralda.</td>
+                        </tr>
+
+                        <tr>
+                        <th scope='row'>Serrania Las Marcadas</th>
+                        <td>Tecnología informática comunitaria en zona rural.</td>
+                        </tr>
+
+                        <tr>
+                        <th scope='row'>Serrania Las Marcadas</th>
+                        <td>Dotación de bicicletas para la comunidad de la vereda el alto del oso municipio de Dosquebradas-Risaralda.</td>
+                        </tr>
+
+                        <tr>
+                        <th scope='row'>Serrania Alto del Nudo</th>
+                        <td>Dotación móvil y tecnológica.</td>
+                        </tr>
+
+                        <tr>
+                        <th scope='row'>Serrania Alto del Nudo</th>
+                        <td>Dotación de herramientas para mantenimiento de vías  terciarias de la serranía alto del nudo.</td>
+                        </tr>
+
+                        <tr>
+                        <th scope='row'>Serrania Alto del Nudo</th>
+                        <td>Implementación de sistema de vigilancia con vídeo.</td>
+                        </tr>
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
 
 
         <!-- Pie de pagina -->
