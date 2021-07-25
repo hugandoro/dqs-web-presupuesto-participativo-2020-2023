@@ -78,13 +78,13 @@ if ($f) {
                         <a class="nav-link" href="fase2_formulacion_proyectos.php">2 | Formulación proyectos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Preinscripcion&a=Index&token="><b>3 | Preinscripción</b></a>
+                        <a class="nav-link" href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Preinscripcion&a=Index&token=">3 | Preinscripción</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Votacion&a=Index&token=">4 | Votación</a>
+                    <li class="nav-item" style="background-color: #FFC300;">
+                        <a class="nav-link" href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Votacion&a=Index&token="><b>4 | Votación</b></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Resultados&a=Index&token=">5 | Resultados</a>
+                    <li class="nav-item" style="background-color: #FFC300;">
+                        <a class="nav-link" href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Resultados&a=Index&token="><b>5 | Resultados</b></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="prensa.php">Prensa y medios</a>
@@ -96,10 +96,19 @@ if ($f) {
 
         <hr>
 
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12" align="center">
+                <div style="font-size: 32pt"><b>Presupuesto participativo Dosquebradas</b></div>
+                <div style="font-size: 18pt"><b>HOY Julio 25 dia de votaciones desde las 8:00 am hasta las 4:00 pm</b></div>
+            </div>
+        </div>
+
+        <hr>
+
 
         <div class="row">
             <div class="col-lg-12 col-md-12 col-xs-12" align="center">
-                <iframe width="100%" height="520" src="https://www.youtube.com/embed/P3LBFvdZdBE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="100%" height="520" src="https://www.youtube.com/embed/i9_nyHxprsA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
 
@@ -158,6 +167,7 @@ if ($f) {
         </div>
 
 
+        <!--
         <br><br><hr>
 
         <div class="row">
@@ -173,6 +183,7 @@ if ($f) {
                 <a href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Preinscripcion&a=Index&token="><img src="images/pasos_preinscripcion.jpg" width="93%"></a>
             </div>
         </div>
+        -->
 
 
         <!-- Pie de pagina -->
