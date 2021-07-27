@@ -80,7 +80,7 @@ if ($f) {
                     <li class="nav-item">
                         <a class="nav-link" href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Preinscripcion&a=Index&token=">3 | Preinscripción</a>
                     </li>
-                    <li class="nav-item" style="background-color: #FFC300;">
+                    <li class="nav-item">
                         <a class="nav-link" href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Votacion&a=Index&token="><b>4 | Votación</b></a>
                     </li>
                     <li class="nav-item" style="background-color: #FFC300;">
@@ -99,13 +99,14 @@ if ($f) {
         <div class="row">
             <div class="col-lg-12 col-md-12 col-xs-12" align="center">
                 <div style="font-size: 32pt"><b>Presupuesto participativo Dosquebradas</b></div>
-                <div style="font-size: 18pt"><b>HOY Julio 25 dia de votaciones desde las 8:00 am hasta las 4:00 pm</b></div>
+                <div style="font-size: 18pt"><b>Votacion cerrada - Gracias por su participación</b></div>
             </div>
         </div>
 
-        <hr>
+        <br><br><br><hr>
 
 
+        <!--
         <div class="row">
             <div class="col-lg-12 col-md-12 col-xs-12" align="center">
                 <iframe width="100%" height="520" src="https://www.youtube.com/embed/i9_nyHxprsA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -114,7 +115,6 @@ if ($f) {
 
         <hr>
 
-        <!--
         <div class="row">
             <div class="col-lg-12 col-md-12 col-xs-12" align="center">
                 <a href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Preinscripcion&a=Index&token="><img src="images/banner_pre.jpg" width="100%"></a>
@@ -150,7 +150,8 @@ if ($f) {
             <div class="col-md-3" align="center">
                 <div style="font-size: 25pt">Proyectos</div>
                 <div style="font-size: 50pt; background-color: #05664C;color: #ffffff;"><b>15</b></div>
-                <div style="font-size: 16pt">Inscritos</div>
+                <div style="font-size: 16pt">Inscritos zona urbana</div>
+                <div style="font-size: 8pt">Este contador representa proyectos inscritos en votacion electronica, se tienen 6 proyectos adicionales para votacion presencial zona rural</div>
             </div>
 
             <div class="col-md-3" align="center">
