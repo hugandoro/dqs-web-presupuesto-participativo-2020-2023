@@ -60,13 +60,13 @@ require_once('bd/sle.php');
                         <a class="nav-link" href="fase2_formulacion_proyectos.php">2 | Formulación proyectos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Preinscripcion&a=Index&token=">3 | Preinscripción</a>
+                        <a class="nav-link" href="fase3_preinscripcion.php">3 | Preinscripción</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="fase4_votacion.php">4 | Votación</a>
                     </li>
                     <li class="nav-item" style="background-color: #FFC300;">
-                        <a class="nav-link" href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Votacion&a=Index&token="><b>4 | Votación</b></a>
-                    </li>
-                    <li class="nav-item" style="background-color: #FFC300;">
-                        <a class="nav-link" href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Resultados&a=Index&token="><b>5 | Resultados</b></a>
+                        <a class="nav-link" href="fase5_resultados.php"><b>5 | Resultados</b></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="prensa.php">Prensa y medios</a>
@@ -89,7 +89,19 @@ require_once('bd/sle.php');
 
         <div class="row">
             <div class="col-md-12" align="center">
-                <div style="font-size: 24pt"><br><br><br>No habilitada | Atento a cronograma...<br><br><br></div>
+                <div style="font-size: 24pt"><br>Resultados | Votacion electronica zona urbana</div>
+                <div style="font-size: 16pt"><br><a href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Resultados&a=Index&token=" target="_blank">Visualizar actas digitales</a><hr></div>
+
+            </div>
+
+            <div class="col-md-12" align="center">
+                <div style="font-size: 24pt"><br>Resultados | Votacion manual zona rural<br><br></div>
+            </div>
+            <div class="col-md-6" align="center">
+                <div style="font-size: 24pt"><img src="images/acta_rural_el_nudo.jpg" width="100%"></div>
+            </div>
+            <div class="col-md-6" align="center">
+                <div style="font-size: 24pt"><img src="images/acta_rural_la_marcada.jpg" width="100%"></div>
             </div>
         </div>
 
