@@ -89,9 +89,81 @@ require_once('bd/sle.php');
 
         <div class="row">
             <div class="col-md-12" align="center">
-                <div style="font-size: 24pt"><br><br><br>Fase cerrada acorde a cronograma<br><br><br></div>
+                <div style="font-size: 24pt"><br>Fase cerrada acorde a cronograma<br><br></div>
             </div>
         </div>
+
+        <hr><br>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-xs-4" align="center">
+                <img src="images/fotos_votacion/F1.jpeg" width="100%">
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-4" align="center">
+            <img src="images/fotos_votacion/F2.jpeg" width="100%">
+            </div>            
+            <div class="col-lg-4 col-md-4 col-xs-4" align="center">
+            <img src="images/fotos_votacion/F3.jpeg" width="100%">
+            </div>
+        </div>
+
+        <hr><br>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-xs-4" align="center">
+                <img src="images/fotos_votacion/F4.jpeg" width="100%">
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-4" align="center">
+            <img src="images/fotos_votacion/F5.jpeg" width="100%">
+            </div>            
+            <div class="col-lg-4 col-md-4 col-xs-4" align="center">
+            <img src="images/fotos_votacion/F6.jpeg" width="100%">
+            </div>
+        </div>
+
+        <hr><br>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-xs-4" align="center">
+                <img src="images/fotos_votacion/F7.jpeg" width="100%">
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-4" align="center">
+            <img src="images/fotos_votacion/F8.jpeg" width="100%">
+            </div>            
+            <div class="col-lg-4 col-md-4 col-xs-4" align="center">
+            <img src="images/fotos_votacion/F9.jpeg" width="100%">
+            </div>
+        </div>
+
+        <hr><br>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-xs-4" align="center">
+                <img src="images/fotos_votacion/F10.jpeg" width="100%">
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-4" align="center">
+            <img src="images/fotos_votacion/F11.jpeg" width="100%">
+            </div>            
+            <div class="col-lg-4 col-md-4 col-xs-4" align="center">
+            <img src="images/fotos_votacion/F12.jpeg" width="100%">
+            </div>
+        </div>
+
+        <hr><br>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-xs-4" align="center">
+                <img src="images/fotos_votacion/F13.jpeg" width="100%">
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-4" align="center">
+            <img src="images/fotos_votacion/F14.jpeg" width="100%">
+            </div>            
+            <div class="col-lg-4 col-md-4 col-xs-4" align="center">
+            <img src="images/fotos_votacion/F15.jpeg" width="100%">
+            </div>
+        </div>
+
+        <hr><br>
 
 
         <!-- Pie de pagina -->
