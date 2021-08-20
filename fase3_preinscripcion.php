@@ -89,8 +89,46 @@ require_once('bd/sle.php');
 
         <div class="row">
             <div class="col-md-12" align="center">
-                <div style="font-size: 24pt"><br><br><br>Fase cerrada acorde a cronograma<br><br><br></div>
+                <div style="font-size: 24pt"><br>Fase cerrada acorde a cronograma<br><br></div>
             </div>
+        </div>
+
+        <hr><br>
+
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-xs-6" align="center">
+                <img src="images/fotos_preins/F1.jpeg" width="100%">
+            </div>
+            <div class="col-lg-6 col-md-6 col-xs-6" align="center">
+            <img src="images/fotos_preins/F2.jpeg" width="100%">
+            </div>            
+        </div>
+
+        <hr><br>
+
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-xs-6" align="center">
+                <img src="images/fotos_preins/F3.jpeg" width="100%">
+            </div>
+            <div class="col-lg-6 col-md-6 col-xs-6" align="center">
+            <img src="images/fotos_preins/F4.jpeg" width="100%">
+            </div>            
+        </div>
+
+        <hr><br>
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12" align="center">
+                <img src="images/fotos_preins/F5.jpeg" width="100%">
+            </div>        
+        </div>
+
+        <hr><br>
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12" align="center">
+                <img src="images/fotos_preins/F6.jpeg" width="100%">
+            </div>        
         </div>
 
 

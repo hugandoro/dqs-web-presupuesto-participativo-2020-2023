@@ -165,6 +165,28 @@ require_once('bd/sle.php');
 
         <hr><br>
 
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-xs-6" align="center">
+                <img src="images/fotos_votacion/F17.jpeg" width="100%">
+            </div>
+            <div class="col-lg-6 col-md-6 col-xs-6" align="center">
+            <img src="images/fotos_votacion/F18.jpeg" width="100%">
+            </div>            
+        </div>
+
+        <hr><br>
+
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-xs-6" align="center">
+                <img src="images/fotos_votacion/F19.jpeg" width="100%">
+            </div>
+            <div class="col-lg-6 col-md-6 col-xs-6" align="center">
+            <img src="images/fotos_votacion/F20.jpeg" width="100%">
+            </div>            
+        </div>
+
+        <hr><br>
+
 
         <!-- Pie de pagina -->
         <footer class="pt-4 my-md-5 pt-md-5 border-top">
