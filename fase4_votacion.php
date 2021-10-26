@@ -82,6 +82,10 @@ require_once('bd/sle.php');
             <div class="col-lg-12 col-md-12 col-xs-12" align="center">
                 <div style="font-size: 32pt"><b>Presupuesto participativo Dosquebradas</b></div>
                 <div style="font-size: 18pt"><b>Fase 4 votación</b></div>
+                <div style="font-size: 14pt"><hr>En las serranías del municipio se instalaron mesas de votación presencial, los jurados fueron capacitados para la jornada.
+En las diferentes comunas participantes según acuerdo 021 de 2.017 las votaciones fueron virtuales.
+Se coordinó el centro de operaciones en la secretaria de planeación municipal dando apertura y cierre de las votaciones acompañados con ediles, presidentes, procuraduría, contraloría quienes corroboraron la transparencia del proceso.
+</div>
             </div>
         </div>
 

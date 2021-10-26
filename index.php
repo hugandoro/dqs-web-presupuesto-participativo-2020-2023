@@ -99,11 +99,15 @@ if ($f) {
         <div class="row">
             <div class="col-lg-12 col-md-12 col-xs-12" align="center">
                 <div style="font-size: 32pt"><b>Presupuesto participativo Dosquebradas</b></div>
-                <div style="font-size: 18pt"><b>Votacion cerrada - Gracias por su participación</b></div>
+                <div style="font-size: 18pt"><b>Vigencia 2021</b></div>
+                <div style="font-size: 14pt">
+                    <hr>Es un mecanismo de asignación equitativa, racional, eficiente, eficaz y transparente de los recursos públicos, que fortalece las relaciones Estado-Sociedad Civil.
+                    La comunidad conociendo sus necesidades discuten y seleccionan los proyectos que quieren que se incluyan en los tarjetones para ser votados teniendo en cuenta el reglamento interno.
+                </div>
+
             </div>
         </div>
-
-        <br><br><br><hr>
+        <hr><br>
 
 
         <!--
@@ -125,24 +129,24 @@ if ($f) {
         <hr><br><br>
         -->
 
-        <?php 
-            // Actualizacion contado
-            $sql = "SELECT * FROM ciudadano";
-            $result = mysqli_query($sle, $sql);
-            $preinscripciones = 0;
-            $preinscripciones = mysqli_num_rows($result);
+        <?php
+        // Actualizacion contado
+        $sql = "SELECT * FROM ciudadano";
+        $result = mysqli_query($sle, $sql);
+        $preinscripciones = 0;
+        $preinscripciones = mysqli_num_rows($result);
 
-            $sql = "SELECT * FROM votos";
-            $result = mysqli_query($sle, $sql);
-            $votos = 0;
-            $votos = mysqli_num_rows($result);
+        $sql = "SELECT * FROM votos";
+        $result = mysqli_query($sle, $sql);
+        $votos = 0;
+        $votos = mysqli_num_rows($result);
         ?>
 
         <div class="row">
-        
+
             <div class="col-md-3" align="center">
                 <div style="font-size: 25pt">Consultas</div>
-                <div style="font-size: 50pt; background-color: #05664C;color: #ffffff;"><b><?php echo $contador;?></b></div>
+                <div style="font-size: 50pt; background-color: #05664C;color: #ffffff;"><b><?php echo $contador; ?></b></div>
                 <div style="font-size: 16pt">Realizadas</div>
 
             </div>

@@ -82,6 +82,7 @@ require_once('bd/sle.php');
             <div class="col-lg-12 col-md-12 col-xs-12" align="center">
                 <div style="font-size: 32pt"><b>Presupuesto participativo Dosquebradas</b></div>
                 <div style="font-size: 18pt"><b>Fase 3 preinscripción</b></div>
+                <div style="font-size: 14pt"><hr>Se realiza acompañamiento de funcionarios de la administración conjunto con la comunidad para realizar la preinscripción de manera virtual de las personas de los diferentes barrios del municipio.</div>
             </div>
         </div>
 

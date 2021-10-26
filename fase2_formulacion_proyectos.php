@@ -82,6 +82,7 @@ require_once('bd/sle.php');
             <div class="col-lg-12 col-md-12 col-xs-12" align="center">
                 <div style="font-size: 32pt"><b>Presupuesto participativo Dosquebradas</b></div>
                 <div style="font-size: 18pt"><b>Fase 2 formulacion de proyectos</b></div>
+                <div style="font-size: 14pt"><hr>Se realizó el acompañamiento de las profesionales de banco de proyectos de la administración con las comunidades de las diferentes comunas y serranías del municipio para asesorar en la formulación de  las ideas de proyecto que fueron elegidas en las asambleas deliberatorias.</div>
             </div>
         </div>
 

@@ -82,6 +82,7 @@ require_once('bd/sle.php');
             <div class="col-lg-12 col-md-12 col-xs-12" align="center">
                 <div style="font-size: 32pt"><b>Presupuesto participativo Dosquebradas</b></div>
                 <div style="font-size: 18pt"><b>Fase 1 socializacion</b></div>
+                <div style="font-size: 14pt"><hr>Se reúne el equipo designado de la administración con la comunidad de las diferentes comunas y serranías del municipio para socializar lo que es el presupuesto participativo, su normatividad, el formato que se desarrolló para que formulen las ideas de proyecto que deben ser aprobadas en sus juntas deliberatorias ,el mecanismo de preinscripción y votaciones.</div>
             </div>
         </div>
 

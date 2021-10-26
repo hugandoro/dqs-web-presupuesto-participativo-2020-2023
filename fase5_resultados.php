@@ -82,6 +82,7 @@ require_once('bd/sle.php');
             <div class="col-lg-12 col-md-12 col-xs-12" align="center">
                 <div style="font-size: 32pt"><b>Presupuesto participativo Dosquebradas</b></div>
                 <div style="font-size: 18pt"><b>Fase 5 resultados</b></div>
+                <div style="font-size: 14pt"><hr>Los resultados fueron obtenidos el mismo día, las de las comunas se consolidaron virtual al momento del cierre de la votación y de las serranías hubo conteo presencial, en ambos casos se contó con la presencia de representantes de la comunidad, procuraduría y contraloría.</div>
             </div>
         </div>
 

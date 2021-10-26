@@ -82,6 +82,7 @@ require_once('bd/sle.php');
             <div class="col-lg-12 col-md-12 col-xs-12" align="center">
                 <div style="font-size: 32pt"><b>Presupuesto participativo Dosquebradas</b></div>
                 <div style="font-size: 18pt"><b>Prensa y medios</b></div>
+                <div style="font-size: 14pt"><hr>En los diferentes procesos desarrollados registro evidencia (toma fotográfica) de las reuniones con las diferentes comunas y serranías subidas a los canales institucionales.</div>
             </div>
         </div>
 
