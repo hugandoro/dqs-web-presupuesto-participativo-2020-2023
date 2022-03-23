@@ -72,22 +72,25 @@ if ($f) {
                         <a class="nav-link" href="index.php">Presupuesto participativo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="fase1_socializacion.php">1 | Socialización</a>
+                        <a class="nav-link" href="#">1 | Socialización</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="fase2_formulacion_proyectos.php">2 | Formulación proyectos</a>
+                        <a class="nav-link" href="#">2 | Proyectos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="fase3_preinscripcion.php">3 | Preinscripción</a>
+                        <a class="nav-link" href="#">3 | Preinscripción</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="fase4_votacion.php">4 | Votación</a>
+                        <a class="nav-link" href="#">4 | Votación</a>
                     </li>
-                    <li class="nav-item" style="background-color: #FFC300;">
-                        <a class="nav-link" href="fase5_resultados.php"><b>5 | Resultados</b></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">5 | Resultados</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="prensa.php">Prensa y medios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Vigencia 2021/index.php" target="_blank">Historico 2021</a>
                     </li>
 
                 </ul>
@@ -98,13 +101,9 @@ if ($f) {
 
         <div class="row">
             <div class="col-lg-12 col-md-12 col-xs-12" align="center">
-                <div style="font-size: 32pt"><b>Presupuesto participativo Dosquebradas</b></div>
-                <div style="font-size: 18pt"><b>Vigencia 2021</b></div>
-                <div style="font-size: 14pt">
-                    <hr>Es un mecanismo de asignación equitativa, racional, eficiente, eficaz y transparente de los recursos públicos, que fortalece las relaciones Estado-Sociedad Civil.
-                    La comunidad conociendo sus necesidades discuten y seleccionan los proyectos que quieren que se incluyan en los tarjetones para ser votados teniendo en cuenta el reglamento interno.
-                </div>
-
+                <div style="font-size: 32pt"><b>Presupuesto participativo en Dosquebradas (Risaralda)</b></div>
+                <div style="font-size: 18pt"><b>Vigencia 2022</b></div>
+                <div><img src="/images/portada.jpg" alt="" width="100%"></div>
             </div>
         </div>
         <hr><br>
@@ -116,79 +115,34 @@ if ($f) {
                 <iframe width="100%" height="520" src="https://www.youtube.com/embed/i9_nyHxprsA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
-
-        <hr>
-
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-xs-12" align="center">
-                <a href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Preinscripcion&a=Index&token="><img src="images/banner_pre.jpg" width="100%"></a>
-            </div>
-        </div>
-        
-
-        <hr><br><br>
         -->
 
-        <?php
-        // Actualizacion contado
-        $sql = "SELECT * FROM ciudadano";
-        $result = mysqli_query($sle, $sql);
-        $preinscripciones = 0;
-        $preinscripciones = mysqli_num_rows($result);
-
-        $sql = "SELECT * FROM votos";
-        $result = mysqli_query($sle, $sql);
-        $votos = 0;
-        $votos = mysqli_num_rows($result);
-        ?>
-
         <div class="row">
 
-            <div class="col-md-3" align="center">
-                <div style="font-size: 25pt">Consultas</div>
-                <div style="font-size: 50pt; background-color: #05664C;color: #ffffff;"><b><?php echo $contador; ?></b></div>
-                <div style="font-size: 16pt">Realizadas</div>
-
+            <div class="col-lg-4 col-md-4 col-xs-4">
+                <div><a href="/seguimiento_2021.php"><img src="/images/seguimiento_proyectos.jpg" alt="" width="100%"></a></div>
+            </div>
+            <div class="col-lg-8 col-md-8 col-xs-8">
+                <div style="font-size: 32pt"><b>Seguimiento proyectos PP 2021</b></div>
+                <div style="font-size: 18pt">Consulte estado de ejecucion de los proyectos ganadores durante el ejercicio de Presupuesto Participativo del año 2021, comuna impactada, responsables, nivel de avance e informacion relevante al respecto.</div>
             </div>
 
-            <div class="col-md-3" align="center">
-                <div style="font-size: 25pt">Proyectos</div>
-                <div style="font-size: 50pt; background-color: #05664C;color: #ffffff;"><b>15</b></div>
-                <div style="font-size: 16pt">Inscritos zona urbana</div>
-                <div style="font-size: 8pt">Este contador representa proyectos inscritos en votacion electronica, se tienen 6 proyectos adicionales para votacion presencial zona rural</div>
-            </div>
-
-            <div class="col-md-3" align="center">
-                <div style="font-size: 25pt">Preinscripciones</div>
-                <div style="font-size: 50pt; background-color: #05664C;color: #ffffff;"><b><?php echo $preinscripciones ?></b></div>
-                <div style="font-size: 16pt">Cedulas</div>
-            </div>
-
-            <div class="col-md-3" align="center">
-                <div style="font-size: 25pt">Votos</div>
-                <div style="font-size: 50pt; background-color: #05664C;color: #ffffff;"><b><?php echo $votos ?></b></div>
-                <div style="font-size: 16pt">Recibidos</div>
-            </div>
         </div>
 
-
-        <!--
-        <br><br><hr>
-
+        <br><hr><br>
+    
         <div class="row">
-            <div class="col-lg-12 col-md-12 col-xs-12" align="center">
-                <a href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Preinscripcion&a=Index&token="><img src="images/proceso_pre2.jpg" width="100%"></a>
-            </div>
-        </div>
-        
-        <hr><br><br>
 
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-xs-12" align="center">
-                <a href="https://presupuestoparticipativo.dosquebradas.gov.co/app_votacion_2021/?c=Preinscripcion&a=Index&token="><img src="images/pasos_preinscripcion.jpg" width="93%"></a>
+            <div class="col-lg-8 col-md-8 col-xs-8">
+                <div style="font-size: 32pt"><b>Caja de herramientas normativa</b></div>
+                <div style="font-size: 18pt">Se pone a disposicion ciudadana esta caja que agrupa recursos normativos, técnicos, de conocimiento, de comunicación y académicos para el público en general interesado en el proceso de Presupuesto Participativo en Dosquebradas.</div>
             </div>
+
+            <div class="col-lg-4 col-md-4 col-xs-4">
+                <div><a href="https://presupuestoparticipativo.dosquebradas.gov.co/repositorio/caja de herramientas/"><img src="/images/documentos.jpg" alt="" width="100%"></a></div>
+            </div>
+
         </div>
-        -->
 
 
         <!-- Pie de pagina -->
@@ -220,9 +174,21 @@ if ($f) {
                     </ul>
                 </div>
                 <div class="col-6 col-md">
-                    <center><a href="https://participacion.mininterior.gov.co"><img class="mb-2" src="images/logo_min_interior.png" alt="" width="100%"></a></center>
+                    <div style="font-size: 18pt">
+                        <center>Eres nuestra visita N°</center>
+                    </div>
+                    <div style="font-size: 50pt; background-color: #FE434E;color: #ffffff;">
+                        <center><b><?php echo $contador; ?></b></center>
+                    </div>
                 </div>
             </div>
+
+            <div class="col-12 col-md">
+                <div>
+                    <center><br><hr><a href='https://www.freepik.es'>Creditos | Imagenes vectorizadas - www.freepik.es</a></center>
+                </div>
+            </div>
+
         </footer>
     </div>
 
