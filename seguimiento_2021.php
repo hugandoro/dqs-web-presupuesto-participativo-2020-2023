@@ -32,6 +32,8 @@ require_once('bd/sle.php');
 
     <script src="ajax_arbol_plan.js"></script>
 
+    <link rel="stylesheet" href="/style/style.css">
+
 </head>
 
 <!-- <body style="background-color:#F1F7E5;"> -->

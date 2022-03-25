@@ -49,6 +49,8 @@ if ($f) {
 
     <script src="ajax_arbol_plan.js"></script>
 
+    <link rel="stylesheet" href="/style/style.css">
+
 </head>
 
 <!-- <body style="background-color:#F1F7E5;"> -->
@@ -117,7 +119,7 @@ if ($f) {
                 <div><a href="/seguimiento_2021.php"><img src="/images/seguimiento_proyectos.jpg" alt="" width="100%"></a></div>
             </div>
             <div class="col-lg-8 col-md-8 col-xs-8">
-                <div style="font-size: 32pt"><b>Seguimiento proyectos PP 2021</b></div>
+                <div style="font-size: 32pt"><a href="/seguimiento_2021.php"><b>Seguimiento proyectos PP 2021</b></a></div>
                 <div style="font-size: 18pt">Consulte estado de ejecucion de los proyectos ganadores durante el ejercicio de Presupuesto Participativo del año 2021, comuna impactada, responsables, nivel de avance e informacion relevante al respecto.</div>
             </div>
 
@@ -128,7 +130,7 @@ if ($f) {
         <div class="row">
 
             <div class="col-lg-8 col-md-8 col-xs-8">
-                <div style="font-size: 32pt"><b>Caja de herramientas normativa</b></div>
+                <div style="font-size: 32pt"><a href="https://presupuestoparticipativo.dosquebradas.gov.co/repositorio/caja de herramientas/"><b>Caja de herramientas normativa</b></a></div>
                 <div style="font-size: 18pt">Se pone a disposicion ciudadana esta caja que agrupa recursos normativos, técnicos, de conocimiento, de comunicación y académicos para el público en general interesado en el proceso de Presupuesto Participativo en Dosquebradas.</div>
             </div>
 
