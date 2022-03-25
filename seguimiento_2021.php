@@ -51,29 +51,23 @@ require_once('bd/sle.php');
             <div class="collapse navbar-collapse" id="navbarsExample09">
                 <ul class="navbar-nav mr-auto">
 
-                    <li class="nav-item">
+                <li class="nav-item">
                         <a class="nav-link" href="index.php">Presupuesto participativo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">1 | Socialización</a>
+                        <a class="nav-link" href="#">.:: Alistamiento</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">2 | Proyectos</a>
+                        <a class="nav-link" href="#">.:: Asambleas deliberatorias</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">3 | Preinscripción</a>
+                        <a class="nav-link" href="#">.:: Asamblea general/votación</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">4 | Votación</a>
+                        <a class="nav-link" href="prensa.php">.:: Multimedia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">5 | Resultados</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="prensa.php">Prensa y medios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/Vigencia 2021/index.php" target="_blank">Historico 2021</a>
+                        <a class="nav-link" href="/Vigencia 2021/index.php" target="_blank">.:: Historico 2021</a>
                     </li>
 
                 </ul>
@@ -108,7 +102,7 @@ require_once('bd/sle.php');
                         <td>Gobernacion / Municipio</td>
                         <td style="width: 30%;">
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Porcentaje no disponible</div>
+                                <div class="progress-bar" role="progressbar" style="width: 61%; background-color: #E67E22" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">61 %</div>
                             </div>
                         </td>
                     </tr>
@@ -119,7 +113,7 @@ require_once('bd/sle.php');
                         <td>Gobernacion / Municipio</td>
                         <td style="width: 30%;">
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Porcentaje no disponible</div>
+                                <div class="progress-bar" role="progressbar" style="width: 61%; background-color: #E67E22" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">61 %</div>
                             </div>
                         </td>
                     </tr>
@@ -130,7 +124,7 @@ require_once('bd/sle.php');
                         <td>Gobernacion / Municipio</td>
                         <td style="width: 30%;">
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Porcentaje no disponible</div>
+                                <div class="progress-bar" role="progressbar" style="width: 61%; background-color: #E67E22" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">61 %</div>
                             </div>
                         </td>
                     </tr>
@@ -141,7 +135,7 @@ require_once('bd/sle.php');
                         <td>Gobernacion / Municipio</td>
                         <td style="width: 30%;">
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Porcentaje no disponible</div>
+                                <div class="progress-bar" role="progressbar" style="width: 61%; background-color: #E67E22" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">61 %</div>
                             </div>
                         </td>
                     </tr>
@@ -152,7 +146,7 @@ require_once('bd/sle.php');
                         <td>Municipio</td>
                         <td style="width: 30%;">
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Porcentaje no disponible</div>
+                                <div class="progress-bar" role="progressbar" style="width: 31%; background-color: #F4D03F" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">31 %</div>
                             </div>
                         </td>
                     </tr>
@@ -163,7 +157,7 @@ require_once('bd/sle.php');
                         <td>Municipio</td>
                         <td style="width: 30%;">
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Porcentaje no disponible</div>
+                                <div class="progress-bar" role="progressbar" style="width: 31%; background-color: #F4D03F" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">31 %</div>
                             </div>
                         </td>
                     </tr>
@@ -174,7 +168,7 @@ require_once('bd/sle.php');
                         <td>Municipio</td>
                         <td style="width: 30%;">
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Porcentaje no disponible</div>
+                                <div class="progress-bar" role="progressbar" style="width: 31%; background-color: #F4D03F" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">31 %</div>
                             </div>
                         </td>
                     </tr>

@@ -72,25 +72,19 @@ if ($f) {
                         <a class="nav-link" href="index.php">Presupuesto participativo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">1 | Socialización</a>
+                        <a class="nav-link" href="#">.:: Alistamiento</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">2 | Proyectos</a>
+                        <a class="nav-link" href="#">.:: Asambleas deliberatorias</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">3 | Preinscripción</a>
+                        <a class="nav-link" href="#">.:: Asamblea general/votación</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">4 | Votación</a>
+                        <a class="nav-link" href="prensa.php">.:: Multimedia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">5 | Resultados</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="prensa.php">Prensa y medios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/Vigencia 2021/index.php" target="_blank">Historico 2021</a>
+                        <a class="nav-link" href="/Vigencia 2021/index.php" target="_blank">.:: Historico 2021</a>
                     </li>
 
                 </ul>
