@@ -144,30 +144,38 @@ if ($f) {
 
         <div class="row">
 
-            <div class="col-md-3" align="center">
+            <div class="col-md-2" align="center">
                 <div style="font-size: 25pt">Consultas</div>
                 <div style="font-size: 50pt; background-color: #05664C;color: #ffffff;"><b><?php echo $contador; ?></b></div>
                 <div style="font-size: 16pt">Realizadas</div>
 
             </div>
 
-            <div class="col-md-3" align="center">
+            <div class="col-md-2" align="center">
                 <div style="font-size: 25pt">Proyectos</div>
                 <div style="font-size: 50pt; background-color: #05664C;color: #ffffff;"><b>15</b></div>
                 <div style="font-size: 16pt">Inscritos zona urbana</div>
                 <div style="font-size: 8pt">Este contador representa proyectos inscritos en votacion electronica, se tienen 6 proyectos adicionales para votacion presencial zona rural</div>
             </div>
 
-            <div class="col-md-3" align="center">
-                <div style="font-size: 25pt">Preinscripciones</div>
+            <div class="col-md-2" align="center">
+                <div style="font-size: 25pt">Preinscritos</div>
                 <div style="font-size: 50pt; background-color: #05664C;color: #ffffff;"><b><?php echo $preinscripciones ?></b></div>
-                <div style="font-size: 16pt">Cedulas</div>
+                <div style="font-size: 16pt">Cedulas para votacion virtual</div>
             </div>
 
             <div class="col-md-3" align="center">
                 <div style="font-size: 25pt">Votos</div>
                 <div style="font-size: 50pt; background-color: #05664C;color: #ffffff;"><b><?php echo $votos ?></b></div>
-                <div style="font-size: 16pt">Recibidos</div>
+                <div style="font-size: 16pt">Virtualmente recibidos</div>
+                <div style="font-size: 8pt">Comunas 1, 2, 8, 10 y 11</div>
+            </div>
+
+            <div class="col-md-3" align="center">
+                <div style="font-size: 25pt">Votos</div>
+                <div style="font-size: 50pt; background-color: #05664C;color: #ffffff;"><b>1021</b></div>
+                <div style="font-size: 16pt">Presencialmente recibidos</div>
+                <div style="font-size: 8pt">Serranía Alto del Nudo y las Marcadas</div>
             </div>
         </div>
 
