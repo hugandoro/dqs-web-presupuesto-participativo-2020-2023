@@ -153,9 +153,9 @@ if ($f) {
 
             <div class="col-md-2" align="center">
                 <div style="font-size: 25pt">Proyectos</div>
-                <div style="font-size: 50pt; background-color: #05664C;color: #ffffff;"><b>15</b></div>
-                <div style="font-size: 16pt">Inscritos zona urbana</div>
-                <div style="font-size: 8pt">Este contador representa proyectos inscritos en votacion electronica, se tienen 6 proyectos adicionales para votacion presencial zona rural</div>
+                <div style="font-size: 50pt; background-color: #05664C;color: #ffffff;"><b>21</b></div>
+                <div style="font-size: 16pt">Inscritos</div>
+                <div style="font-size: 8pt">15 proyectos inscritos para votacion digital en zona urbana y 6 proyectos para votacion presencial zona rural</></div>
             </div>
 
             <div class="col-md-2" align="center">

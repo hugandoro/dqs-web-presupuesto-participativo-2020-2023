@@ -120,7 +120,8 @@ if ($f) {
             </div>
             <div class="col-lg-8 col-md-8 col-xs-8">
                 <div style="font-size: 32pt"><a href="/seguimiento_2021.php"><b>Seguimiento proyectos PP 2021</b></a></div>
-                <div style="font-size: 18pt">Consulte estado de ejecucion de los proyectos ganadores durante el ejercicio de Presupuesto Participativo del año 2021, comuna impactada, responsables, nivel de avance e informacion relevante al respecto.</div>
+                <div style="font-size: 18pt">Verifique estado de ejecucion de los proyectos ganadores durante el ejercicio de Presupuesto Participativo del año 2021, comuna impactada, responsables, nivel de avance e informacion relevante al respecto, <a href="/seguimiento_2021.php"><b>consultar...</b></a></div>
+                <div style="font-size: 14pt"><a href="/Vigencia 2021/repositorio/INFORME ASAMBLEA PRESUPUESTO PARTICIPATIVO 2021.pdf"><br>>> Consulta aquí el informe final asamblea PP vigencia 2021</a></div>
             </div>
 
         </div>
@@ -131,7 +132,7 @@ if ($f) {
 
             <div class="col-lg-8 col-md-8 col-xs-8">
                 <div style="font-size: 32pt"><a href="https://presupuestoparticipativo.dosquebradas.gov.co/repositorio/caja de herramientas/"><b>Caja de herramientas normativa</b></a></div>
-                <div style="font-size: 18pt">Se pone a disposicion ciudadana esta caja que agrupa recursos normativos, técnicos, de conocimiento, de comunicación y académicos para el público en general interesado en el proceso de Presupuesto Participativo en Dosquebradas.</div>
+                <div style="font-size: 18pt">Se pone a disposicion ciudadana esta caja que agrupa recursos normativos, técnicos, de conocimiento, de comunicación y académicos para el público en general interesado en el proceso de Presupuesto Participativo en Dosquebradas, <a href="https://presupuestoparticipativo.dosquebradas.gov.co/repositorio/caja de herramientas/"><b>ingresar...</b></a></div>
             </div>
 
             <div class="col-lg-4 col-md-4 col-xs-4">
